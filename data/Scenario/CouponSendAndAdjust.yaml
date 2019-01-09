@@ -1,0 +1,17 @@
+NAME: 发券手工调帐
+couponSendAndAdjust:
+    Case1:
+        Desc: 发券并手工调账核销券 发券->获取用户账户信息->手工调账核销券
+        #发券
+        CouponSendUrl: /coupon/send
+        CouponSend: {"cno":"1267119","template_id":8891705,"amount":1,"biz_id":444449,"shop_id":"1112645845"}
+
+        #获取用户账户信息 得到券id
+        UserAccountUrl: /user/account
+        UserAccount: {"cno":"1267119","shop_id":"1112645845"}
+
+        #手工调账核销券
+        CouponAdjustUrl: /coupon/adjust
+        CouponAdjust: {"cno":"1267119","coupon_ids":[],"shop_id":1112645845,"cashier_id":"1218054703","remark":"核销"}
+
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1

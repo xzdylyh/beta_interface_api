@@ -1,0 +1,224 @@
+NAME: 储值取消业务场景数据
+
+ChargeAndCancel:
+    #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>按自定义储值>>验证储值支付方式>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Case1: #自定义储值方式->现金储值
+        Desc: 自定义储值方式->现金储值
+
+        #储值预览
+        ChargePreviewUrl: /charge/preview
+        ChargePreview: {"cno":"1003935056208150","shop_id":1512995661,"cashier_id":"1234871385","money":"100","award_money2":10,"reward_money":"100","is_diy":true,"charge_type":1,"remark":"beizhu","biz_id":"37","recommenderecode2":9002}
+
+        #储值提交
+        ChargeCommitUrl: /charge/commit
+        ChargeCommit: {'biz_id':'37','is_diy':true}
+
+        #储值取消
+        ChargeCancelUrl: /charge/cancel
+        ChargeCancel: {'biz_id':'37','cashier_id':'1234871385'}
+
+        Appid: dp3lF7bop2e5PTFXwLHTszgv
+
+
+    Case2: #自定义储值方式->银行卡储值
+        Desc: 自定义储值方式->银行卡储值
+
+        #储值预览
+        ChargePreviewUrl: /charge/preview
+        ChargePreview: {"cno":"1003935056208150","shop_id":1512995661,"cashier_id":"1234871385","money":"100","award_money2":10,"reward_money":"100","is_diy":true,"charge_type":2,"remark":"beizhu","biz_id":"37","recommenderecode2":9002}
+
+        #储值提交
+        ChargeCommitUrl: /charge/commit
+        ChargeCommit: {'biz_id':'37','is_diy':true}
+
+        #储值取消
+        ChargeCancelUrl: /charge/cancel
+        ChargeCancel: {'biz_id':'37','cashier_id':'1234871385'}
+
+        Appid: dp3lF7bop2e5PTFXwLHTszgv
+
+
+    Case3: #自定义储值方式->微信储值
+        Desc: 自定义储值方式->微信储值
+
+        #储值预览
+        ChargePreviewUrl: /charge/preview
+        ChargePreview: {"cno":"1003935056208150","shop_id":1512995661,"cashier_id":"1234871385","money":"100","award_money2":10,"reward_money":"100","is_diy":true,"charge_type":5,"remark":"beizhu","biz_id":"37","recommenderecode2":9002}
+
+        #储值提交
+        ChargeCommitUrl: /charge/commit
+        ChargeCommit: {'biz_id':'37','is_diy':true}
+
+        #储值取消
+        ChargeCancelUrl: /charge/cancel
+        ChargeCancel: {'biz_id':'37','cashier_id':'1234871385'}
+
+        Appid: dp3lF7bop2e5PTFXwLHTszgv
+
+
+    Case4: #自定义储值方式->支付宝储值
+        Desc: 自定义储值方式->支付宝储值
+
+        #储值预览
+        ChargePreviewUrl: /charge/preview
+        ChargePreview: {"cno":"1003935056208150","shop_id":1512995661,"cashier_id":"1234871385","money":"100","award_money2":10,"reward_money":"100","is_diy":true,"charge_type":4,"remark":"beizhu","biz_id":"37","recommenderecode2":9002}
+
+        #储值提交
+        ChargeCommitUrl: /charge/commit
+        ChargeCommit: {'biz_id':'37','is_diy':true}
+
+        #储值取消
+        ChargeCancelUrl: /charge/cancel
+        ChargeCancel: {'biz_id':'37','cashier_id':'1234871385'}
+
+        Appid: dp3lF7bop2e5PTFXwLHTszgv
+
+
+    #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>按储值规则储值>>验证储值支付方式>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+    Case5: #按储值规则储值->现金储值
+        Desc: 按储值规则储值->现金储值
+
+        #储值预览
+        ChargePreviewUrl: /charge/preview
+        ChargePreview: {"cno":"1003935056208150","shop_id":1512995661,"cashier_id":"1234871385","money":"100","award_money2":10,"reward_money":"100","is_diy":false,"charge_type":1,"remark":"beizhu","biz_id":"37","recommenderecode2":9002}
+
+        #储值提交
+        ChargeCommitUrl: /charge/commit
+        ChargeCommit: {'biz_id':'37','is_diy':false}
+
+        #储值取消
+        ChargeCancelUrl: /charge/cancel
+        ChargeCancel: {'biz_id':'37','cashier_id':'1234871385'}
+
+        Appid: dp3lF7bop2e5PTFXwLHTszgv
+
+
+    Case6: #自定义储值方式->银行卡储值
+        Desc: 按储值规则储值->银行卡储值
+
+        #储值预览
+        ChargePreviewUrl: /charge/preview
+        ChargePreview: {"cno":"1003935056208150","shop_id":1512995661,"cashier_id":"1234871385","money":"100","award_money2":10,"reward_money":"100","is_diy":false,"charge_type":2,"remark":"beizhu","biz_id":"37","recommenderecode2":9002}
+
+        #储值提交
+        ChargeCommitUrl: /charge/commit
+        ChargeCommit: {'biz_id':'37','is_diy':false}
+
+        #储值取消
+        ChargeCancelUrl: /charge/cancel
+        ChargeCancel: {'biz_id':'37','cashier_id':'1234871385'}
+
+        Appid: dp3lF7bop2e5PTFXwLHTszgv
+
+
+    Case7: #自定义储值方式->微信储值
+        Desc: 按储值规则储值->微信储值
+
+        #储值预览
+        ChargePreviewUrl: /charge/preview
+        ChargePreview: {"cno":"1003935056208150","shop_id":1512995661,"cashier_id":"1234871385","money":"100","award_money2":10,"reward_money":"100","is_diy":false,"charge_type":5,"remark":"beizhu","biz_id":"37","recommenderecode2":9002}
+
+        #储值提交
+        ChargeCommitUrl: /charge/commit
+        ChargeCommit: {'biz_id':'37','is_diy':false}
+
+        #储值取消
+        ChargeCancelUrl: /charge/cancel
+        ChargeCancel: {'biz_id':'37','cashier_id':'1234871385'}
+
+        Appid: dp3lF7bop2e5PTFXwLHTszgv
+
+
+    Case8: #自定义储值方式->支付宝储值
+        Desc: 按储值规则储值->支付宝储值
+
+        #储值预览
+        ChargePreviewUrl: /charge/preview
+        ChargePreview: {"cno":"1003935056208150","shop_id":1512995661,"cashier_id":"1234871385","money":"100","award_money2":10,"reward_money":"100","is_diy":false,"charge_type":4,"remark":"beizhu","biz_id":"37","recommenderecode2":9002}
+
+        #储值提交
+        ChargeCommitUrl: /charge/commit
+        ChargeCommit: {'biz_id':'37','is_diy':false}
+
+        #储值取消
+        ChargeCancelUrl: /charge/cancel
+        ChargeCancel: {'biz_id':'37','cashier_id':'1234871385'}
+
+        Appid: dp3lF7bop2e5PTFXwLHTszgv
+
+
+
+    #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>系统默认收银员>>>>>按自定义储值>>验证储值支付方式>>>>>>>>>>>>>>>>>>>>>
+    Case9: #系统默认收银员-按储值规则储值->现金储值
+        Desc: 系统默认收银员-按储值规则储值->现金储值
+
+        #储值预览
+        ChargePreviewUrl: /charge/preview
+        ChargePreview: {"cno":"1003935056208150","shop_id":1512995661,"cashier_id":-1,"money":"100","award_money2":10,"reward_money":"100","is_diy":true,"charge_type":1,"remark":"beizhu","biz_id":"37","recommenderecode2":9002}
+
+
+        #储值提交
+        ChargeCommitUrl: /charge/commit
+        ChargeCommit: {'biz_id':'37','is_diy':true}
+
+        #储值取消
+        ChargeCancelUrl: /charge/cancel
+        ChargeCancel: {'biz_id':'37','cashier_id':'1234871385'}
+
+        Appid: dp3lF7bop2e5PTFXwLHTszgv
+
+
+    Case10: #系统默认收银员-按储值规则储值->银行卡储值
+        Desc: 系统默认收银员-按储值规则储值->银行卡储值
+
+        #储值预览
+        ChargePreviewUrl: /charge/preview
+        ChargePreview: {"cno":"1003935056208150","shop_id":1512995661,"cashier_id":-1,"money":"100","award_money2":10,"reward_money":"100","is_diy":true,"charge_type":2,"remark":"beizhu","biz_id":"37","recommenderecode2":9002}
+
+        #储值提交
+        ChargeCommitUrl: /charge/commit
+        ChargeCommit: {'biz_id':'37','is_diy':true}
+
+        #储值取消
+        ChargeCancelUrl: /charge/cancel
+        ChargeCancel: {'biz_id':'37','cashier_id':'1234871385'}
+
+        Appid: dp3lF7bop2e5PTFXwLHTszgv
+
+
+    Case11: #按储值规则储值->微信储值
+        Desc: 系统默认收银员-按储值规则储值->微信储值
+
+        #储值预览
+        ChargePreviewUrl: /charge/preview
+        ChargePreview: {"cno":"1003935056208150","shop_id":1512995661,"cashier_id":-1,"money":"100","award_money2":10,"reward_money":"100","is_diy":true,"charge_type":5,"remark":"beizhu","biz_id":"1237","recommenderecode2":9002}
+
+        #储值提交
+        ChargeCommitUrl: /charge/commit
+        ChargeCommit: {"biz_id":37,"is_diy":true}
+
+
+        #储值取消
+        ChargeCancelUrl: /charge/cancel
+        ChargeCancel: {"biz_id":37,"cashier_id":"1234871385"}
+
+        Appid: dp3lF7bop2e5PTFXwLHTszgv
+
+
+    Case12: #自定义储值方式->支付宝储值
+        Desc: 系统默认收银员-按储值规则储值->支付宝储值
+
+        #储值预览
+        ChargePreviewUrl: /charge/preview
+        ChargePreview: {"cno":"1003935056208150","shop_id":1512995661,"cashier_id":-1,"money":"100","award_money2":10,"reward_money":"100","is_diy":true,"charge_type":4,"remark":"beizhu","biz_id":"37","recommenderecode2":9002}
+
+        #储值提交
+        ChargeCommitUrl: /charge/commit
+        ChargeCommit: {'biz_id':'37','is_diy':true}
+
+        #储值取消
+        ChargeCancelUrl: /charge/cancel
+        ChargeCancel: {'biz_id':'37','cashier_id':'1234871385'}
+
+        Appid: dp3lF7bop2e5PTFXwLHTszgv

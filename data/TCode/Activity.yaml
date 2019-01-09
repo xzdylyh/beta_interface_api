@@ -1,0 +1,24 @@
+name: 活动接口
+
+ACTIVITY_CASE1: #查询用户参与的集赞活动
+    Url: /activity/getuserthumbuplog
+    Case1: #/activity/getuserthumbuplog
+        Desc: 查询用户参与的集赞活动
+        Getuserthumbuplog: {"cno":"1282511093739164","activity_id":3033953}
+        Appid: dp3lF7bop2e5PTFXwLHTszgv
+
+
+ACTIVITY_CASE2: #获取活动列表
+    Url: /activity/list
+    Case1: #/activity/list
+        Desc: 获取活动列表
+        ActivityList: {"cno":1262797,"shop_id":1786077185}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+ACTIVITY_CASE3: #获取异业营销活动列表
+    Url: /activity/otherlist
+    Case1: #/activity/otherlist
+        Desc: 获取异业营销活动列表
+        ActivityOtherList: {"page":1}
+        Appid: dp10As24x4DJoMtqbcywEDVo

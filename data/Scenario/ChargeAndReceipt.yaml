@@ -1,0 +1,24 @@
+NAME: 储值并开发票业务场景
+
+ChargeAndReceipt:
+    #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>储值并开发票业务场景>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Case1: #自定义储值方式->现金储值->查询发票－>开发票
+        Desc: 储值并开发票
+
+        #储值预览
+        ChargePreviewUrl: /charge/preview
+        ChargePreview: {"cno":"1003935056208150","shop_id":1512995661,"cashier_id":"1234871385","money":"100","award_money2":10,"reward_money":"100","is_diy":true,"charge_type":1,"remark":"beizhu","biz_id":"37","recommenderecode2":9002}
+
+        #储值提交
+        ChargeCommitUrl: /charge/commit
+        ChargeCommit: {'biz_id':'37','is_diy':true}
+
+        #用户可开发票查询
+        ChargeReceiptstatUrl: /charge/receiptstat
+        ChargeReceiptstat: {"cno":"1003935056208150","shop_id":"1512995661"}
+
+        #储值开发票
+        ChargeReceiptbatchUrl: /charge/receiptbatch
+        ChargeReceiptbatch: {"cno":1003935056208150,"shop_id":"1512995661","money":1,"biz_id":37,"cashier_id":"1234871385"}
+
+        Appid: dp3lF7bop2e5PTFXwLHTszgv

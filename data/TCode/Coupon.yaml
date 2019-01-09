@@ -1,0 +1,62 @@
+﻿name: 券接口
+
+COUPON_CASE1: #发券
+    Url: /coupon/send
+    Case1: #/coupon/send
+        Desc: 发券
+        CouponSend: {"cno":"1267119","template_id":8891724,"amount":1,"biz_id":40,"shop_id":"1112645845"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+    Case2: #/coupon/send
+        Desc: 发券-不输参数门店
+        CouponSend: {"cno":"1267119","template_id":8891724,"amount":1,"biz_id":40}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+COUPON_CASE2: #券模板详情
+    Url: /coupon/detail
+    Case1: #/coupon/detail
+        Desc: 券模板详情
+        CouponDetail: {"coupon_id":8891799}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+COUPON_CASE3: #券列表
+    Url: /coupon/list
+    Case1: #/coupon/list
+        Desc: 券列表-1页
+        CouponList: {"page":1}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+    Case2: #/coupon/list
+        Desc: 券列表-2页
+        CouponList: {"page":2}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+COUPON_CASE4: #根据卡号查询券列表
+    Url: /user/getusercoupons
+    Case1: #/user/getusercoupons
+        Desc: 根据卡号查询券列表
+        UserGetusercoupons: {"cno":"1267119"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+COUPON_CASE5: #券转赠接口
+    Url: /coupon/gift
+    Case1: #/coupon/gift
+        Desc: 券转赠接口
+        CouponGift: {"cno":"1267119","coupon_ids":["1621626202071557466"],"get_cno":"1267119","shop_id":"1429830612"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+COUPON_CASE6: #根据biz_id查询发券详情
+    Url: /coupon/sendsearch
+    Case1: #/coupon/sendsearch
+        Desc: 根据biz_id查询发券详情
+        SendSearch: {"biz_id":39}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+COUPON_CASE7: #查询用户下一张券的信息
+    Url: /coupon/c2uinfo
+    Case1: #/coupon/c2uinfo
+        Desc: 查询用户下一张券的信息
+        CouponC2uinfo: {"cno":"1267119","c2u_id":"1621626202071557466"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1

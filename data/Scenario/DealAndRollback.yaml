@@ -1,0 +1,14 @@
+NAME: 交易冲正
+DealAndRollback:
+    Case1:
+        Desc: 消费并冲正场景 消费预览->冲正
+
+        #消费预览
+        DealPreviewUrl: /deal/preview
+        DealPreview: {"cno":"1003935056208150","shop_id":"1512995661","cashier_id":"1234871385","consume_amount":100,"sub_balance":100, "deno_coupon_ids":[""],"gift_coupons_ids":[""],"sub_credit":0,"activity_ids2":["0"],"payment_amount":0,"credit_amount":0,"payment_mode":1,"count_num":2,"biz_id":8036,"table_id":"A023","tags2":["舌尖上的中国"],"diy_gift_coupon_pay2":[{"user_coupon_id":"","deno":100}],"products2":[{"name":"388","no":388,"num": "1","price":"100","is_activity":1,"coupons_ids2":["1597533836855947312"],"tags2":["来自中国的美味"]}]}
+
+        #消费冲正
+        DealRollbackUrl: /deal/rollback
+        DealRollback: {"biz_id":"8043"}
+
+        Appid: dp3lF7bop2e5PTFXwLHTszgv

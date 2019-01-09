@@ -1,0 +1,200 @@
+﻿name: 用户接口
+
+USER_CASE1: #获取用户账户信息
+    Url: /user/account
+    Case1:
+        Desc: 获取用户账户信息
+        UserAccount: {"cno":"1267119"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+    Case2:
+        Desc: 获取用户账户信息-带shop_id
+        UserAccount: {"cno":"1267119","shop_id":"1429830612"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+USER_CASE2: #获取微信用户账户信息
+    Url: /user/getinfo
+    Case1: #/user/getinfo
+        Desc: 获取微信用户账户信息
+        UserGetinfo: {"openid":"ohBubwav3gjx6PeQm2MFN_z47jS4"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+USER_CASE3: #验证实体卡信息
+    Url: /user/checkcard
+    Case1: #/user/checkcard'
+        Desc: 验证实体卡信息
+        UserCheckCard: {"phone":"13800138188","acno":"1109662303541283","sid":"1429830612","mode":"open"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+USER_CASE4: #查询电子卡接口
+    Url: /user/cardinfo
+    Case1: #/user/cardinfo
+        Desc: 查询电子卡
+        UserCardinfo: {"openid":"ohBubwav3gjx6PeQm2MFN_z47jS4"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+USER_CASE5: #修改会员信息
+    Url: /user/edit
+    Case1: #/user/edit
+        Desc: 修改会员信息
+        UserEdit: {"cno":"1267119","gender":1,"username":"tianshu1","birth":"1990-06-01"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+    Case2: #/user/edit
+        Desc: 修改会员信息-性别－姓名
+        UserEdit: {"cno":"1267119","gender":2,"username":"tianshu2","birth":"1991-06-01"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+    Case3: #/user/edit
+        Desc: 修改会员信息-只传性别和卡号
+        UserEdit: {"cno":"1267119","gender":2}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+    Case4: #/user/edit
+        Desc: 修改会员信息-只传用户名和卡号
+        UserEdit: {"cno":"1267119","username":"tianshu3"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+    Case5: #/user/edit
+        Desc: 修改会员信息-只传生日和卡号
+        UserEdit: {"cno":"1267119","birth":"1991-07-01"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+
+USER_CASE6: #unionid查询用户
+    Url: /user/ugetinfo
+    Case1: #/user/ugetinfo
+        Desc: unionid查询用户
+        UserUgetinfo: {"unionid":"1520848192"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+USER_CASE7: #unionid开卡
+    Url: /user/uopencard
+    Case1: #/user/uopencard
+        Desc: unionid开卡
+        UserUopencard: {"unionid":"ww","shop_id":1512995661,"phone":13718651996}
+        Appid: dp3lF7bop2e5PTFXwLHTszgv
+    Case2: #/user/uopencard
+        Desc: unionid开卡-不输入手机号
+        UserUopencard: {"unionid":"ww","shop_id":1512995661}
+        Appid: dp3lF7bop2e5PTFXwLHTszgv
+
+USER_CASE8: #给指定用户发送验证码
+    Url: /user/sendcode
+    Case1: #/user/sendcode
+        Desc: 给指定用户发送验证码
+        UserSendcode: {"cno":"1605855733813205"}
+        Appid: dp1mFO1iEmEftoIxQJBH6g
+
+
+USER_CASE9: #用户积分记录
+    Url: /user/creditlist
+    Case1: #/user/creditlist
+        Desc: 用户积分记录查询
+        UserCreditList: {"cno":"1267119"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+USER_CASE10: #获取用户动态卡号
+    Url: /user/dynamic
+    Case1: #/user/dynamic
+        Desc: 获取用户动态卡号
+        UserDynamic: {"cno":"1267119"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+USER_CASE11: #获取已使用优惠券
+    Url: /user/getusedcoupons
+    Case1: #/user/getusedcoupons
+        Desc: 获取已使用优惠券
+        UsedCoupon: {"cno":"1267119","page":1}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+USER_CASE12: #获取已过期优惠券
+    Url: /user/getoverduecoupons
+    Case1: #/user/getoverduecoupons
+        Desc: 获取已过期优惠券
+        OverDueCoupon: {"cno":"1267119","page":1}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+USER_CASE13: #根据券获取用户账户信息
+    Url: /user/getc2uinfo
+    Case1:
+        Desc: 根据券获取用户账户信息
+        Getc2uinfo: {"c2u_id":"1267119-1596706562688198907"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+USER_CASE14: #合并微信和实体卡
+    Url: /user/mergeActualCard
+    Case1:
+        Desc: 合并微信和实体卡－为实体卡等级
+        MergeActualCard: {"cno":1267119,"acno":"1831675780211333","mergegrade":true}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+USER_CASE15: #会员全部券接口
+    Url: /user/couponlist
+    Case1:
+        Desc: 会员全部券接口
+        UserCouponList: {"cno":"1267119","page":1}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+    Case2:
+        Desc: 会员全部券接口-2页
+        UserCouponList: {"cno":"1267119","page":2}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+    Case3:
+        Desc: 会员全部券接口-页码默认
+        UserCouponList: {"cno":"1267119"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+#{"phone":"13800138188","shop_id":"1429830612","grade":0,"is_gift":0}
+USER_CASE16: #手机开卡
+    Url: /user/phonecard
+    Case1:
+        Desc: 手机开卡_参数只输入手机号
+        UserPhoneCard: {"phone":"13718651995"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+    Case2:
+        Desc: 手机开卡_参数指定门店
+        UserPhoneCard: {"phone":"13718651995","shop_id":"1429830612"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+    Case3:
+        Desc: 手机开卡_参数指定会员等级
+        UserPhoneCard: {"phone":"13718651995","grade":0}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+    Case4:
+        Desc: 手机开卡_参数指定不赠送开卡礼
+        UserPhoneCard: {"phone":"13718651995","is_gift":0}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+    Case5:
+        Desc: 手机开卡_参数全部输入
+        UserPhoneCard: {"phone":"13718651995","shop_id":"1429830612","grade":0,"is_gift":0}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+USER_CASE17: #会员全部券接口
+    Url: /user/grade
+    Case1:
+        Desc: 查询会员等级信息-电子卡
+        UserCouponList: {"cno":"1267119"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+    Case2:
+        Desc: 查询会员等级信息-实体卡
+        UserCouponList: {"cno":"1003935056208150"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+    Case3:
+        Desc: 查询会员等级信息-手机号
+        UserCouponList: {"cno":"13718651998"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+    Case4:
+        Desc: 查询会员等级信息-磁道号
+        UserCouponList: {"cno":"541831675410800277316754108002"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1

@@ -1,0 +1,42 @@
+﻿name: Credit
+
+CREDIT_CASE1: #手工调整积分/credit/change
+    Url: /credit/change
+    Case1: #增加积分
+        Desc: 增加积分
+        CreditChange: {"cno":1267119, "cashier_id":"1128628493", "shop_id":4101315464, "type":1, "credit":1, "remark":"heihei", "biz_id":518,"notice":-1}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+    Case2: #减少积分
+        Desc: 减少积分
+        CreditChange: {"cno":1267119, "cashier_id":"1128628493", "shop_id":4101315464, "type":2, "credit":1, "remark":"heihei", "biz_id":518,"notice":-1}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+CREDIT_CASE2: #积分换礼/credit/exchange
+    Url: /credit/exchange
+    Case1:
+        Desc: 积分换礼-非默认收银员
+        CreditExChange: {"cno":"1267119","cashier_id":"1128628493","shop_id":4101315464,"sub_credit":1, "desc":"30分换礼品", "biz_id":2298}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+    Case2:
+        Desc: 积分换礼-默认收银员
+        CreditExChange: {"cno":"1267119","cashier_id":-1,"shop_id":4101315464,"sub_credit":1, "desc":"30分换礼品", "biz_id":2298,}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+CREDIT_CASE3: #查看积分设置/credit/rule
+    Url: /credit/rule
+    Case1:
+        Desc: 查看积分设置
+        CreditRule: {}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+CREDIT_CASE4: #积分规则新接口/credit/shoprule
+    Url: /credit/shoprule
+    Case1:
+        Desc: 积分规则新接口
+        CreditShopRule: {"shopid":"1512995661"}
+        Appid: dp3lF7bop2e5PTFXwLHTszgv

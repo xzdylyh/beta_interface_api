@@ -1,0 +1,296 @@
+﻿name: ChargeAndDeal
+
+
+#自定义充值并消费储值业务场景:储值预览->储值提交->交易预览->交易提交->交易撤销
+ChargeAndDeal: #用例数据集
+    Case1: #现金消费>>>按消费金额赠送
+        #case描述
+        Desc: 现金消费>>>按消费金额赠送
+
+        #储值预览
+        ChargePreviewUrl: /charge/preview
+        ChargePreview: {"award_money2": 10, "biz_id": 37, "cashier_id": '1234871385', "charge_type": 1, "cno": '1811182573790562',"is_diy": "true", "money": '100', "recommenderecode2": 9002, "remark": "beizhu", "reward_money": '100',"shop_id": 1512995661}
+
+        #储值提交
+        ChargeCommitUrl: /charge/commit
+        ChargeCommit: {"biz_id":37,"is_diy":false}
+
+        #交易预览
+        DealPreviewUrl: /deal/preview
+        DealPreview: {"cno":"1811182573790562","shop_id":1512995661,"cashier_id":"1234871385","consume_amount":100,"sub_balance":100, "deno_coupon_ids":[""],"gift_coupons_ids":[""],"sub_credit":0,"activity_ids2":["0"],"payment_amount":0,"credit_amount":0,"payment_mode":1,"count_num":2,"biz_id":8036,"table_id":"A023","tags2":["舌尖上的中国"],"diy_gift_coupon_pay2":[{"user_coupon_id":"","deno":100}],"products2":[{"name":"388","no":388,"num": "1","price":"100","is_activity":1,"coupons_ids2":["1597533836855947312"],"tags2":["来自中国的美味"]}]}
+
+        #交易提交
+        DealCommitUrl: /deal/commit
+        DealCommit: {"biz_id":8036,"verify_code":"000000"}
+
+        #交易撤销
+        DealCancelUrl: /deal/cancel
+        DealCancel: {"biz_id":8036,"send_notification2":false,"cashier_id":"1234871385"}
+
+        Appid: dp3lF7bop2e5PTFXwLHTszgv
+
+
+    Case2: #银行卡消费>>>按消费金额赠送
+        #case描述
+        Desc: 银行卡消费>>>按消费金额赠送
+
+        #储值预览
+        ChargePreviewUrl: /charge/preview
+        ChargePreview: {"award_money2": 10, "biz_id": 37, "cashier_id": '1234871385', "charge_type": 1, "cno": '1811182573790562',"is_diy": "true", "money": '100', "recommenderecode2": 9002, "remark": "beizhu", "reward_money": '100',"shop_id": 1512995661}
+
+        #储值提交
+        ChargeCommitUrl: /charge/commit
+        ChargeCommit: {"biz_id":37,"is_diy":false}
+
+        #交易预览
+        DealPreviewUrl: /deal/preview
+        DealPreview: {"cno":"1811182573790562","shop_id":1512995661,"cashier_id":"1234871385","consume_amount":100,"sub_balance":100, "deno_coupon_ids":[""],"gift_coupons_ids":[""],"sub_credit":0,"activity_ids2":["0"],"payment_amount":0,"credit_amount":0,"payment_mode":2,"count_num":2,"biz_id":8036,"table_id":"A023","tags2":["舌尖上的中国"],"diy_gift_coupon_pay2":[{"user_coupon_id":"","deno":100}],"products2":[{"name":"388","no":388,"num": "1","price":"100","is_activity":1,"coupons_ids2":["1597533836855947312"],"tags2":["来自中国的美味"]}]}
+
+        #交易提交
+        DealCommitUrl: /deal/commit
+        DealCommit: {"biz_id":8036,"verify_code":"000000"}
+
+        #交易撤销
+        DealCancelUrl: /deal/cancel
+        DealCancel: {"biz_id":8036,"send_notification2":false,"cashier_id":"1234871385"}
+
+        Appid: dp3lF7bop2e5PTFXwLHTszgv
+
+    Case3: #店内微信消费>>>按消费金额赠送
+        #case描述
+        Desc: 店内微信消费>>>按消费金额赠送
+
+        #储值预览
+        ChargePreviewUrl: /charge/preview
+        ChargePreview: {"award_money2": 10, "biz_id": 37, "cashier_id": '1234871385', "charge_type": 1, "cno": '1811182573790562',"is_diy": "true", "money": '100', "recommenderecode2": 9002, "remark": "beizhu", "reward_money": '100',"shop_id": 1512995661}
+
+        #储值提交
+        ChargeCommitUrl: /charge/commit
+        ChargeCommit: {"biz_id":37,"is_diy":false}
+
+        #交易预览
+        DealPreviewUrl: /deal/preview
+        DealPreview: {"cno":"1811182573790562","shop_id":1512995661,"cashier_id":"1234871385","consume_amount":100,"sub_balance":100, "deno_coupon_ids":[""],"gift_coupons_ids":[""],"sub_credit":0,"activity_ids2":["0"],"payment_amount":0,"credit_amount":0,"payment_mode":3,"count_num":2,"biz_id":8036,"table_id":"A023","tags2":["舌尖上的中国"],"diy_gift_coupon_pay2":[{"user_coupon_id":"","deno":100}],"products2":[{"name":"388","no":388,"num": "1","price":"100","is_activity":1,"coupons_ids2":["1597533836855947312"],"tags2":["来自中国的美味"]}]}
+
+        #交易提交
+        DealCommitUrl: /deal/commit
+        DealCommit: {"biz_id":8036,"verify_code":"000000"}
+
+        #交易撤销
+        DealCancelUrl: /deal/cancel
+        DealCancel: {"biz_id":8036,"send_notification2":false,"cashier_id":"1234871385"}
+
+        Appid: dp3lF7bop2e5PTFXwLHTszgv
+
+
+    Case4: #支付宝消费>>>按消费金额赠送
+        #case描述
+        Desc: 支付宝消费>>>按消费金额赠送
+
+        #储值预览
+        ChargePreviewUrl: /charge/preview
+        ChargePreview: {"award_money2": 10, "biz_id": 37, "cashier_id": '1234871385', "charge_type": 1, "cno": '1811182573790562',"is_diy": "true", "money": '100', "recommenderecode2": 9002, "remark": "beizhu", "reward_money": '100',"shop_id": 1512995661}
+
+        #储值提交
+        ChargeCommitUrl: /charge/commit
+        ChargeCommit: {"biz_id":37,"is_diy":false}
+
+        #交易预览
+        DealPreviewUrl: /deal/preview
+        DealPreview: {"cno":"1811182573790562","shop_id":1512995661,"cashier_id":"1234871385","consume_amount":100,"sub_balance":100, "deno_coupon_ids":[""],"gift_coupons_ids":[""],"sub_credit":0,"activity_ids2":["0"],"payment_amount":0,"credit_amount":0,"payment_mode":4,"count_num":2,"biz_id":8036,"table_id":"A023","tags2":["舌尖上的中国"],"diy_gift_coupon_pay2":[{"user_coupon_id":"","deno":100}],"products2":[{"name":"388","no":388,"num": "1","price":"100","is_activity":1,"coupons_ids2":["1597533836855947312"],"tags2":["来自中国的美味"]}]}
+
+        #交易提交
+        DealCommitUrl: /deal/commit
+        DealCommit: {"biz_id":8036,"verify_code":"000000"}
+
+        #交易撤销
+        DealCancelUrl: /deal/cancel
+        DealCancel: {"biz_id":8036,"send_notification2":false,"cashier_id":"1234871385"}
+
+        Appid: dp3lF7bop2e5PTFXwLHTszgv
+
+
+    Case5: #线上微信消费>>>按消费金额赠送
+        #case描述
+        Desc: 线上微信消费>>>按消费金额赠送
+
+        #储值预览
+        ChargePreviewUrl: /charge/preview
+        ChargePreview: {"award_money2": 10, "biz_id": 37, "cashier_id": '1234871385', "charge_type": 1, "cno": '1811182573790562',"is_diy": "true", "money": '100', "recommenderecode2": 9002, "remark": "beizhu", "reward_money": '100',"shop_id": 1512995661}
+
+        #储值提交
+        ChargeCommitUrl: /charge/commit
+        ChargeCommit: {"biz_id":37,"is_diy":false}
+
+        #交易预览
+        DealPreviewUrl: /deal/preview
+        DealPreview: {"cno":"1811182573790562","shop_id":1512995661,"cashier_id":"1234871385","consume_amount":100,"sub_balance":100, "deno_coupon_ids":[""],"gift_coupons_ids":[""],"sub_credit":0,"activity_ids2":["0"],"payment_amount":0,"credit_amount":0,"payment_mode":6,"count_num":2,"biz_id":8036,"table_id":"A023","tags2":["舌尖上的中国"],"diy_gift_coupon_pay2":[{"user_coupon_id":"","deno":100}],"products2":[{"name":"388","no":388,"num": "1","price":"100","is_activity":1,"coupons_ids2":["1597533836855947312"],"tags2":["来自中国的美味"]}]}
+
+        #交易提交
+        DealCommitUrl: /deal/commit
+        DealCommit: {"biz_id":8036,"verify_code":"000000"}
+
+        #交易撤销
+        DealCancelUrl: /deal/cancel
+        DealCancel: {"biz_id":8036,"send_notification2":false,"cashier_id":"1234871385"}
+
+        Appid: dp3lF7bop2e5PTFXwLHTszgv
+
+
+    Case6: #百度糯米方式消费>>>不赠积分
+        #case描述
+        Desc: 百度糯米消费>>>不赠送积分
+
+        #储值预览
+        ChargePreviewUrl: /charge/preview
+        ChargePreview: {"award_money2": 10, "biz_id": 37, "cashier_id": '1234871385', "charge_type": 1, "cno": '1811182573790562',"is_diy": "true", "money": '100', "recommenderecode2": 9002, "remark": "beizhu", "reward_money": '100',"shop_id": 1512995661}
+
+        #储值提交
+        ChargeCommitUrl: /charge/commit
+        ChargeCommit: {"biz_id":37,"is_diy":false}
+
+        #交易预览
+        DealPreviewUrl: /deal/preview
+        DealPreview: {"cno":"1811182573790562","shop_id":1512995661,"cashier_id":"1234871385","consume_amount":100,"sub_balance":100, "deno_coupon_ids":[""],"gift_coupons_ids":[""],"sub_credit":0,"activity_ids2":["0"],"payment_amount":0,"credit_amount":-1,"payment_mode":7,"count_num":2,"biz_id":8036,"table_id":"A023","tags2":["舌尖上的中国"],"diy_gift_coupon_pay2":[{"user_coupon_id":"","deno":100}],"products2":[{"name":"388","no":388,"num": "1","price":"100","is_activity":1,"coupons_ids2":["1597533836855947312"],"tags2":["来自中国的美味"]}]}
+
+        #交易提交
+        DealCommitUrl: /deal/commit
+        DealCommit: {"biz_id":8036,"verify_code":"000000"}
+
+        #交易撤销
+        DealCancelUrl: /deal/cancel
+        DealCancel: {"biz_id":8036,"send_notification2":false,"cashier_id":"1234871385"}
+
+        Appid: dp3lF7bop2e5PTFXwLHTszgv
+
+    Case7: #美团消费>>>不赠积分
+        #case描述
+        Desc: 美团消费>>>不赠送积分
+
+        #储值预览
+        ChargePreviewUrl: /charge/preview
+        ChargePreview: {"award_money2": 10, "biz_id": 37, "cashier_id": '1234871385', "charge_type": 1, "cno": '1811182573790562',"is_diy": "true", "money": '100', "recommenderecode2": 9002, "remark": "beizhu", "reward_money": '100',"shop_id": 1512995661}
+
+        #储值提交
+        ChargeCommitUrl: /charge/commit
+        ChargeCommit: {"biz_id":37,"is_diy":false}
+
+        #交易预览
+        DealPreviewUrl: /deal/preview
+        DealPreview: {"cno":"1811182573790562","shop_id":1512995661,"cashier_id":"1234871385","consume_amount":100,"sub_balance":100, "deno_coupon_ids":[""],"gift_coupons_ids":[""],"sub_credit":0,"activity_ids2":["0"],"payment_amount":0,"credit_amount":-1,"payment_mode":8,"count_num":2,"biz_id":8036,"table_id":"A023","tags2":["舌尖上的中国"],"diy_gift_coupon_pay2":[{"user_coupon_id":"","deno":100}],"products2":[{"name":"388","no":388,"num": "1","price":"100","is_activity":1,"coupons_ids2":["1597533836855947312"],"tags2":["来自中国的美味"]}]}
+
+        #交易提交
+        DealCommitUrl: /deal/commit
+        DealCommit: {"biz_id":8036,"verify_code":"000000"}
+
+        #交易撤销
+        DealCancelUrl: /deal/cancel
+        DealCancel: {"biz_id":8036,"send_notification2":false,"cashier_id":"1234871385"}
+
+        Appid: dp3lF7bop2e5PTFXwLHTszgv
+
+
+    Case8: #点评消费>>>不赠积分
+        #case描述
+        Desc: 点评消费>>>不赠送积分
+
+        #储值预览
+        ChargePreviewUrl: /charge/preview
+        ChargePreview: {"award_money2": 10, "biz_id": 37, "cashier_id": '1234871385', "charge_type": 1, "cno": '1811182573790562',"is_diy": "true", "money": '100', "recommenderecode2": 9002, "remark": "beizhu", "reward_money": '100',"shop_id": 1512995661}
+
+        #储值提交
+        ChargeCommitUrl: /charge/commit
+        ChargeCommit: {"biz_id":37,"is_diy":false}
+
+        #交易预览
+        DealPreviewUrl: /deal/preview
+        DealPreview: {"cno":"1811182573790562","shop_id":1512995661,"cashier_id":"1234871385","consume_amount":100,"sub_balance":100, "deno_coupon_ids":[""],"gift_coupons_ids":[""],"sub_credit":0,"activity_ids2":["0"],"payment_amount":0,"credit_amount":-1,"payment_mode":9,"count_num":2,"biz_id":8036,"table_id":"A023","tags2":["舌尖上的中国"],"diy_gift_coupon_pay2":[{"user_coupon_id":"","deno":100}],"products2":[{"name":"388","no":388,"num": "1","price":"100","is_activity":1,"coupons_ids2":["1597533836855947312"],"tags2":["来自中国的美味"]}]}
+
+        #交易提交
+        DealCommitUrl: /deal/commit
+        DealCommit: {"biz_id":8036,"verify_code":"000000"}
+
+        #交易撤销
+        DealCancelUrl: /deal/cancel
+        DealCancel: {"biz_id":8036,"send_notification2":false,"cashier_id":"1234871385"}
+
+        Appid: dp3lF7bop2e5PTFXwLHTszgv
+
+    Case9: #其它方式消费>>>不赠积分
+        #case描述
+        Desc: 其它方式消费>>>不赠送积分
+
+        #储值预览
+        ChargePreviewUrl: /charge/preview
+        ChargePreview: {"award_money2": 10, "biz_id": 37, "cashier_id": '1234871385', "charge_type": 1, "cno": '1811182573790562',"is_diy": "true", "money": '100', "recommenderecode2": 9002, "remark": "beizhu", "reward_money": '100',"shop_id": 1512995661}
+
+        #储值提交
+        ChargeCommitUrl: /charge/commit
+        ChargeCommit: {"biz_id":37,"is_diy":false}
+
+        #交易预览
+        DealPreviewUrl: /deal/preview
+        DealPreview: {"cno":"1811182573790562","shop_id":1512995661,"cashier_id":"1234871385","consume_amount":100,"sub_balance":100, "deno_coupon_ids":[""],"gift_coupons_ids":[""],"sub_credit":0,"activity_ids2":["0"],"payment_amount":0,"credit_amount":-1,"payment_mode":10,"count_num":2,"biz_id":8036,"table_id":"A023","tags2":["舌尖上的中国"],"diy_gift_coupon_pay2":[{"user_coupon_id":"","deno":100}],"products2":[{"name":"388","no":388,"num": "1","price":"100","is_activity":1,"coupons_ids2":["1597533836855947312"],"tags2":["来自中国的美味"]}]}
+
+        #交易提交
+        DealCommitUrl: /deal/commit
+        DealCommit: {"biz_id":8036,"verify_code":"000000"}
+
+        #交易撤销
+        DealCancelUrl: /deal/cancel
+        DealCancel: {"biz_id":8036,"send_notification2":false,"cashier_id":"1234871385"}
+
+        Appid: dp3lF7bop2e5PTFXwLHTszgv
+
+
+    Case10: #支票消费>>>不赠积分
+        #case描述
+        Desc: 支票消费>>>不赠送积分
+
+        #储值预览
+        ChargePreviewUrl: /charge/preview
+        ChargePreview: {"award_money2": 10, "biz_id": 37, "cashier_id": '1234871385', "charge_type": 1, "cno": '1811182573790562',"is_diy": "true", "money": '100', "recommenderecode2": 9002, "remark": "beizhu", "reward_money": '100',"shop_id": 1512995661}
+
+        #储值提交
+        ChargeCommitUrl: /charge/commit
+        ChargeCommit: {"biz_id":37,"is_diy":false}
+
+        #交易预览
+        DealPreviewUrl: /deal/preview
+        DealPreview: {"cno":"1811182573790562","shop_id":1512995661,"cashier_id":"1234871385","consume_amount":100,"sub_balance":100, "deno_coupon_ids":[""],"gift_coupons_ids":[""],"sub_credit":0,"activity_ids2":["0"],"payment_amount":0,"credit_amount":-1,"payment_mode":11,"count_num":2,"biz_id":8036,"table_id":"A023","tags2":["舌尖上的中国"],"diy_gift_coupon_pay2":[{"user_coupon_id":"","deno":100}],"products2":[{"name":"388","no":388,"num": "1","price":"100","is_activity":1,"coupons_ids2":["1597533836855947312"],"tags2":["来自中国的美味"]}]}
+
+        #交易提交
+        DealCommitUrl: /deal/commit
+        DealCommit: {"biz_id":8036,"verify_code":"000000"}
+
+        #交易撤销
+        DealCancelUrl: /deal/cancel
+        DealCancel: {"biz_id":8036,"send_notification2":false,"cashier_id":"1234871385"}
+
+        Appid: dp3lF7bop2e5PTFXwLHTszgv
+
+    Case11: #集团消费>>>不赠积分
+        #case描述
+        Desc: 集团消费>>>不赠送积分
+
+        #储值预览
+        ChargePreviewUrl: /charge/preview
+        ChargePreview: {"award_money2": 10, "biz_id": 37, "cashier_id": '1234871385', "charge_type": 1, "cno": '1811182573790562',"is_diy": "true", "money": '100', "recommenderecode2": 9002, "remark": "beizhu", "reward_money": '100',"shop_id": 1512995661}
+
+        #储值提交
+        ChargeCommitUrl: /charge/commit
+        ChargeCommit: {"biz_id":37,"is_diy":false}
+
+        #交易预览
+        DealPreviewUrl: /deal/preview
+        DealPreview: {"cno":"1811182573790562","shop_id":1512995661,"cashier_id":"1234871385","consume_amount":100,"sub_balance":100, "deno_coupon_ids":[""],"gift_coupons_ids":[""],"sub_credit":0,"activity_ids2":["0"],"payment_amount":0,"credit_amount":-1,"payment_mode":12,"count_num":2,"biz_id":8036,"table_id":"A023","tags2":["舌尖上的中国"],"diy_gift_coupon_pay2":[{"user_coupon_id":"","deno":100}],"products2":[{"name":"388","no":388,"num": "1","price":"100","is_activity":1,"coupons_ids2":["1597533836855947312"],"tags2":["来自中国的美味"]}]}
+
+        #交易提交
+        DealCommitUrl: /deal/commit
+        DealCommit: {"biz_id":8036,"verify_code":"000000"}
+
+        #交易撤销
+        DealCancelUrl: /deal/cancel
+        DealCancel: {"biz_id":8036,"send_notification2":false,"cashier_id":"1234871385"}
+
+        Appid: dp3lF7bop2e5PTFXwLHTszgv

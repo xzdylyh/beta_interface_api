@@ -1,0 +1,28 @@
+name: 标签接口
+
+TAGS_CASE1: #用户增加标签/tag/touser
+    Url: /tag/touser
+    Case1: #为用户增加多个标签
+        Desc: 为用户增加多个标签
+        TagToUser: {"cno":"1267119","tags":["多放醋","少辣","少油"]}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+TAGS_CASE2: #用户标签列表
+    Url: /tag/listusertags
+    Case1: #/tag/listusertags
+        Desc: 用户标签列表- 全部
+        TagListUserTags: {"cno":"1267119","category":0}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+    Case2: #/tag/listusertags
+        Desc: 用户标签列表- POS消费
+        TagListUserTags: {"cno":"1267119","category":1}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+    Case3: #/tag/listusertags
+        Desc: 用户标签列表- 菜品标签
+        TagListUserTags: {"cno":"1267119","category":4}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+

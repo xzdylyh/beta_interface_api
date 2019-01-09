@@ -1,0 +1,48 @@
+name: 其它模块接口
+
+MANAGE_CASE1: #获取收银员列表/cashier/list
+    Url: /cashier/list
+    Case1: #获取收银员列表
+        Desc: 获取收银员列表-0页
+        CashierList: {"shop_id":1786077185,"page":0}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+    Case2: #获取收银员列表
+        Desc: 获取收银员列表-1页
+        CashierList: {"shop_id":1786077185,"page":1}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+    Case3: #获取收银员列表
+        Desc: 获取收银员列表-2页
+        CashierList: {"shop_id":1786077185,"page":1}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+MANAGE_CASE2: #获取门店列表/shop/list
+    Url: /shop/list
+    Case1: #获取门店列表
+        Desc: 获取门店列表
+        ShopList: {}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+MANAGE_CASE3: #查询员工/employee/list
+    Url: /employee/list
+    Case1: #查询员工
+        Desc: 查询员工
+        EmployeeList: {"shop_id":2982892431}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+MANAGE_CASE4: #收银员账号登陆签到/pos/signin
+    Url: /pos/signin
+    Case1: #收银员账号登陆签到
+        Desc: 收银员账号登陆签到
+        PosSignin: {"username":1234871385,"password":123456,"shop_id":1512995661}
+        Appid: dp3lF7bop2e5PTFXwLHTszgv
+
+
+MANAGE_CASE5: #硬pos获取用户的积分规则/pos/shopcredit
+    Url: /pos/shopcredit
+    Case1: #获取用户的积分规则
+        Desc: 获取用户的积分规则
+        PosShopcredit: {"uid":289781824896323584,"shop_id":1786077185}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1

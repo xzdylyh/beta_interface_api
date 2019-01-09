@@ -1,0 +1,32 @@
+name: 基本配置信息
+
+BASE_URL: http://api.beta.acewill.net
+
+RETRY: #请求失败重试设置
+    ReNum: 3 #失败重试次数
+
+#发送测试报告,邮件配置
+EMAIL:
+    Smtp_Server: smtp.exmail.qq.com
+    Smtp_Sender: lengyaohui.bj@acewill.cn
+    Password: YHleng870120
+    Msg_Title: Beta接口自动化测试结果
+    Receivers: ['lengyaohui@163.com']  #收件人
+    #Receivers: ['lengyaohui@163.com','wangyan.bj@acewill.cn','cch@acewill.cn','gzx@acewill.cn','huxl@acewill.cn','jtt@acewill.cn','maming@acewill.cn'] #收件人
+    From: 自动化测试系统
+    To: 微生活测试组
+
+#业务场景,执行配置:通过此配置,决定场景是否运行,Y运行;N不运行
+RUNING:
+    testCouponSendAndCancel: {'Flag':'Y'} #发券并撤销业务场景:发券->撤销
+    testChargeAndCancel: {'Flag':'Y'} #储值撤销场景:储值预览->储值提交->储值撤销
+    testChargeAndDeal: {'Flag':'Y'} #自定义充值并消费储值业务场景:储值预览->储值提交->交易预览->交易提交->交易撤销
+    testGradeEditAndDesc: {'Flag':'Y'} #会员升级降级:会员升级->储值调整
+    testCouponOtherSendAndCancel: {'Flag':'Y'} #异业营销发券并撤销场景: 获取异业营销活动列表->异业营销发券->异业营销券码核销
+    testCouponCmbSendAndCancel: {'Flag':'Y'} #'''异业营销cmb发券并撤销场景: 获取异业营销活动列表->异业营销cmb发券->异业营销券码核销'''
+    testDealAndRollback: {'Flag':'Y'} #消费并冲正场景: 消费预览->冲正
+    testCouponSendAndAdjust: {'Flag':'Y'} #发券并手工调账核销券:发券->获取用户账户信息->手工调账核销券
+    testChargeAndReceipt: {'Flag':'Y'} #储值并开发票场景:储值预览->储值提交->可开发票查询->开发票
+
+
+

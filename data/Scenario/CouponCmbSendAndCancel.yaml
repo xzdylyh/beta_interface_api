@@ -1,0 +1,20 @@
+NAME: 异业营销
+OtherCoupon:
+    Case1: #异业营销发券并撤销场景: 获取异业营销活动列表->异业营销发券->异业营销券码核销
+        Desc: 异业营销发券并撤销场景，获取异业营销活动列表->异业营销发券->异业营销券码核销
+
+        #获取异业营销活动列表
+        OtherListUrl: /activity/otherlist
+        OtherList: {"page":1}
+
+        #异业营销cmb发券
+        CmbSendUrl: /coupon/cmbcothersend
+        CmbSend: {"phone":"13718651998","aid":"3032925","biz_id":"1061"}
+
+        #异业营销券码核销
+        OtherVerificationUrl: /coupon/otherverification
+        OtherVerification: {"coupon_code":"1574518583967556","cashier_id":1233937492}
+
+        Appid: dp10As24x4DJoMtqbcywEDVo #带活动的appid 似水年华商家的
+
+        Appid2: dp1mFO1iEmEftoIxQJBH6g #硬pos专用商家的

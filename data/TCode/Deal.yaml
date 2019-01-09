@@ -1,0 +1,36 @@
+name: 交易模块数据
+
+DEAL_CASE1: #当日交易计录统计/consume/today
+    Url: /consume/today
+    Case1: #当日交易计录统计
+        Desc: 当日交易计录统计/consume/today
+        ConsumeToday: {"begin_time":"10:00","end_time":"15:00"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+DEAL_CASE2: #当获取交易/储值支付方式/deal/getpaytype
+    Url: /deal/getpaytype
+    Case1: #当获取交易/储值支付方式
+        Desc: 当获取交易/储值支付方式 - 交易
+        DealGetPayType: {"optype":"consume"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+    Case2: #当获取交易/储值支付方式
+        Desc: 当获取交易/储值支付方式 - 储值
+        DealGetPayType: {"optype":"charge"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+DEAL_CASE3: #/deal/sendnotification
+    Url: /deal/sendnotification
+    Case1: #/deal/sendnotification
+        Desc: /deal/sendnotification
+        DealSendnotification: {"biz_id":"7375"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+DEAL_CASE4: #检查支付密码
+    Url: /deal/verifypassword
+    Case1: #/deal/sendnotification
+        Desc: 检查支付密码
+        dealVerifypassword: {"cno":"1267119","password":"000000"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
