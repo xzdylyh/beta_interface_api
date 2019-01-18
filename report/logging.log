@@ -23385,3 +23385,575 @@
 [2019-01-09 10:41:45] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /tag/listusertags HTTP/1.1" 200 None
 [2019-01-09 10:43:24] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
 [2019-01-09 10:43:24] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /tag/listusertags HTTP/1.1" 200 None
+[2019-01-10 15:57:59] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-10 15:57:59] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/couponlist HTTP/1.1" 200 None
+[2019-01-10 15:58:49] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-10 15:58:49] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/couponlist HTTP/1.1" 200 None
+[2019-01-11 14:02:01] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-11 14:02:01] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/couponlist HTTP/1.1" 200 None
+[2019-01-11 14:02:45] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-11 14:02:45] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/couponlist HTTP/1.1" 200 None
+[2019-01-17 17:50:36] INFO [info: log.py, 20] testChargeAndCancel执行标记:Y
+[2019-01-17 17:50:36] INFO [info: log.py, 20] testChargeAndDeal执行标记:Y
+[2019-01-17 17:50:36] INFO [info: log.py, 20] testCouponSendAndCancel执行标记:Y
+[2019-01-17 17:50:36] INFO [info: log.py, 20] testGradeEditAndDesc执行标记:Y
+[2019-01-17 17:50:36] INFO [info: log.py, 20] testCouponCmbSendAndCancel执行标记:Y
+[2019-01-17 17:50:36] INFO [info: log.py, 20] testCouponOtherSendAndCancel执行标记:Y
+[2019-01-17 17:50:36] INFO [info: log.py, 20] testDealAndRollback执行标记:Y
+[2019-01-17 17:50:36] INFO [info: log.py, 20] testCouponSendAndAdjust执行标记:Y
+[2019-01-17 17:50:36] INFO [info: log.py, 20] testChargeAndReceipt执行标记:Y
+[2019-01-17 17:50:37] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:50:37] INFO [info: log.py, 20] 请求数据:{"charge_type": 5, "remark": "beizhu", "reward_money": "100", "money": "100", "cashier_id": -1, "award_money2": 10, "is_diy": true, "shop_id": 1512995661, "biz_id": "20190117175037007", "cno": "1003935056208150", "recommenderecode2": 9002}
+[2019-01-17 17:50:37] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:50:37] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:50:38] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-17 17:50:40] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:50:40] INFO [info: log.py, 20] 请求数据:{"is_diy": true, "biz_id": "20190117175037007"}
+[2019-01-17 17:50:40] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:50:40] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:50:40] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2019-01-17 17:50:48] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:50:48] INFO [info: log.py, 20] 请求数据:{"biz_id": "20190117175037007", "cashier_id": "1234871385"}
+[2019-01-17 17:50:48] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:50:48] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:50:48] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/cancel HTTP/1.1" 200 None
+[2019-01-17 17:50:52] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:50:52] INFO [info: log.py, 20] 请求数据:{"charge_type": 4, "remark": "beizhu", "reward_money": "100", "money": "100", "cashier_id": "1234871385", "award_money2": 10, "is_diy": true, "shop_id": 1512995661, "biz_id": "20190117175052007", "cno": "1003935056208150", "recommenderecode2": 9002}
+[2019-01-17 17:50:52] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:50:52] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:50:52] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-17 17:50:53] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:50:53] INFO [info: log.py, 20] 请求数据:{"is_diy": true, "biz_id": "20190117175052007"}
+[2019-01-17 17:50:53] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:50:53] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:50:54] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2019-01-17 17:51:01] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:51:01] INFO [info: log.py, 20] 请求数据:{"biz_id": "20190117175052007", "cashier_id": "1234871385"}
+[2019-01-17 17:51:01] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:51:01] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:51:02] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/cancel HTTP/1.1" 200 None
+[2019-01-17 17:51:06] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:51:06] INFO [info: log.py, 20] 请求数据:{"charge_type": 5, "remark": "beizhu", "reward_money": "100", "money": "100", "cashier_id": "1234871385", "award_money2": 10, "is_diy": false, "shop_id": 1512995661, "biz_id": "20190117175106007", "cno": "1003935056208150", "recommenderecode2": 9002}
+[2019-01-17 17:51:06] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:51:06] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:51:06] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-17 17:51:08] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:51:08] INFO [info: log.py, 20] 请求数据:{"is_diy": false, "biz_id": "20190117175106007"}
+[2019-01-17 17:51:08] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:51:08] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:51:09] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2019-01-17 17:51:17] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:51:17] INFO [info: log.py, 20] 请求数据:{"biz_id": "20190117175106007", "cashier_id": "1234871385"}
+[2019-01-17 17:51:17] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:51:17] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:51:17] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/cancel HTTP/1.1" 200 None
+[2019-01-17 17:51:20] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:51:20] INFO [info: log.py, 20] 请求数据:{"charge_type": 2, "remark": "beizhu", "reward_money": "100", "money": "100", "cashier_id": "1234871385", "award_money2": 10, "is_diy": false, "shop_id": 1512995661, "biz_id": "20190117175120007", "cno": "1003935056208150", "recommenderecode2": 9002}
+[2019-01-17 17:51:20] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:51:20] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:51:21] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-17 17:51:24] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:51:24] INFO [info: log.py, 20] 请求数据:{"is_diy": false, "biz_id": "20190117175120007"}
+[2019-01-17 17:51:24] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:51:24] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:51:25] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2019-01-17 17:51:32] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:51:32] INFO [info: log.py, 20] 请求数据:{"biz_id": "20190117175120007", "cashier_id": "1234871385"}
+[2019-01-17 17:51:32] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:51:32] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:51:32] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/cancel HTTP/1.1" 200 None
+[2019-01-17 17:51:36] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:51:36] INFO [info: log.py, 20] 请求数据:{"charge_type": 2, "remark": "beizhu", "reward_money": "100", "money": "100", "cashier_id": -1, "award_money2": 10, "is_diy": true, "shop_id": 1512995661, "biz_id": "20190117175136007", "cno": "1003935056208150", "recommenderecode2": 9002}
+[2019-01-17 17:51:36] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:51:36] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:51:37] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-17 17:51:38] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:51:38] INFO [info: log.py, 20] 请求数据:{"is_diy": true, "biz_id": "20190117175136007"}
+[2019-01-17 17:51:38] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:51:38] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:51:38] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2019-01-17 17:51:44] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:51:44] INFO [info: log.py, 20] 请求数据:{"biz_id": "20190117175136007", "cashier_id": "1234871385"}
+[2019-01-17 17:51:44] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:51:44] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:51:45] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/cancel HTTP/1.1" 200 None
+[2019-01-17 17:51:49] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:51:49] INFO [info: log.py, 20] 请求数据:{"charge_type": 4, "remark": "beizhu", "reward_money": "100", "money": "100", "cashier_id": -1, "award_money2": 10, "is_diy": true, "shop_id": 1512995661, "biz_id": "20190117175149007", "cno": "1003935056208150", "recommenderecode2": 9002}
+[2019-01-17 17:51:49] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:51:49] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:51:49] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-17 17:51:51] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:51:51] INFO [info: log.py, 20] 请求数据:{"is_diy": true, "biz_id": "20190117175149007"}
+[2019-01-17 17:51:51] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:51:51] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:51:52] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2019-01-17 17:52:00] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:52:00] INFO [info: log.py, 20] 请求数据:{"biz_id": "20190117175149007", "cashier_id": "1234871385"}
+[2019-01-17 17:52:00] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:52:00] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:52:00] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/cancel HTTP/1.1" 200 None
+[2019-01-17 17:52:02] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:52:02] INFO [info: log.py, 20] 请求数据:{"charge_type": 1, "remark": "beizhu", "reward_money": "100", "money": "100", "cashier_id": -1, "award_money2": 10, "is_diy": true, "shop_id": 1512995661, "biz_id": "20190117175202007", "cno": "1003935056208150", "recommenderecode2": 9002}
+[2019-01-17 17:52:02] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:52:02] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:52:02] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-17 17:52:05] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:52:05] INFO [info: log.py, 20] 请求数据:{"is_diy": true, "biz_id": "20190117175202007"}
+[2019-01-17 17:52:05] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:52:05] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:52:06] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2019-01-17 17:52:13] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:52:13] INFO [info: log.py, 20] 请求数据:{"biz_id": "20190117175202007", "cashier_id": "1234871385"}
+[2019-01-17 17:52:13] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:52:13] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:52:14] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/cancel HTTP/1.1" 200 None
+[2019-01-17 17:52:16] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:52:16] INFO [info: log.py, 20] 请求数据:{"charge_type": 4, "remark": "beizhu", "reward_money": "100", "money": "100", "cashier_id": "1234871385", "award_money2": 10, "is_diy": false, "shop_id": 1512995661, "biz_id": "20190117175216007", "cno": "1003935056208150", "recommenderecode2": 9002}
+[2019-01-17 17:52:16] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:52:16] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:52:16] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-17 17:52:18] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:52:18] INFO [info: log.py, 20] 请求数据:{"is_diy": false, "biz_id": "20190117175216007"}
+[2019-01-17 17:52:18] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:52:18] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:52:19] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2019-01-17 17:52:26] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:52:26] INFO [info: log.py, 20] 请求数据:{"biz_id": "20190117175216007", "cashier_id": "1234871385"}
+[2019-01-17 17:52:26] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:52:26] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:52:27] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/cancel HTTP/1.1" 200 None
+[2019-01-17 17:52:30] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:52:30] INFO [info: log.py, 20] 请求数据:{"charge_type": 1, "remark": "beizhu", "reward_money": "100", "money": "100", "cashier_id": "1234871385", "award_money2": 10, "is_diy": true, "shop_id": 1512995661, "biz_id": "20190117175230007", "cno": "1003935056208150", "recommenderecode2": 9002}
+[2019-01-17 17:52:30] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:52:30] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:52:30] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-17 17:52:32] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:52:32] INFO [info: log.py, 20] 请求数据:{"is_diy": true, "biz_id": "20190117175230007"}
+[2019-01-17 17:52:32] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:52:32] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:52:33] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2019-01-17 17:52:39] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:52:39] INFO [info: log.py, 20] 请求数据:{"biz_id": "20190117175230007", "cashier_id": "1234871385"}
+[2019-01-17 17:52:39] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:52:39] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:52:39] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/cancel HTTP/1.1" 200 None
+[2019-01-17 17:52:41] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:52:41] INFO [info: log.py, 20] 请求数据:{"charge_type": 5, "remark": "beizhu", "reward_money": "100", "money": "100", "cashier_id": "1234871385", "award_money2": 10, "is_diy": true, "shop_id": 1512995661, "biz_id": "20190117175241007", "cno": "1003935056208150", "recommenderecode2": 9002}
+[2019-01-17 17:52:41] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:52:41] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:52:41] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-17 17:52:42] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:52:42] INFO [info: log.py, 20] 请求数据:{"is_diy": true, "biz_id": "20190117175241007"}
+[2019-01-17 17:52:42] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:52:42] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:52:43] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2019-01-17 17:52:51] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:52:51] INFO [info: log.py, 20] 请求数据:{"biz_id": "20190117175241007", "cashier_id": "1234871385"}
+[2019-01-17 17:52:51] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:52:51] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:52:52] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/cancel HTTP/1.1" 200 None
+[2019-01-17 17:52:55] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:52:55] INFO [info: log.py, 20] 请求数据:{"charge_type": 2, "remark": "beizhu", "reward_money": "100", "money": "100", "cashier_id": "1234871385", "award_money2": 10, "is_diy": true, "shop_id": 1512995661, "biz_id": "20190117175255007", "cno": "1003935056208150", "recommenderecode2": 9002}
+[2019-01-17 17:52:55] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:52:55] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:52:55] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-17 17:52:58] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:52:58] INFO [info: log.py, 20] 请求数据:{"is_diy": true, "biz_id": "20190117175255007"}
+[2019-01-17 17:52:58] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:52:58] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:52:59] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2019-01-17 17:53:07] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:53:07] INFO [info: log.py, 20] 请求数据:{"biz_id": "20190117175255007", "cashier_id": "1234871385"}
+[2019-01-17 17:53:07] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:53:07] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:53:07] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/cancel HTTP/1.1" 200 None
+[2019-01-17 17:53:10] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:53:10] INFO [info: log.py, 20] 请求数据:{"charge_type": 1, "remark": "beizhu", "reward_money": "100", "money": "100", "cashier_id": "1234871385", "award_money2": 10, "is_diy": false, "shop_id": 1512995661, "biz_id": "20190117175310007", "cno": "1003935056208150", "recommenderecode2": 9002}
+[2019-01-17 17:53:10] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:53:10] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:53:10] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-17 17:53:11] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:53:11] INFO [info: log.py, 20] 请求数据:{"is_diy": false, "biz_id": "20190117175310007"}
+[2019-01-17 17:53:11] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:53:11] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:53:12] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2019-01-17 17:53:20] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:53:20] INFO [info: log.py, 20] 请求数据:{"biz_id": "20190117175310007", "cashier_id": "1234871385"}
+[2019-01-17 17:53:20] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:53:21] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:53:21] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/cancel HTTP/1.1" 200 None
+[2019-01-17 17:53:23] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:53:23] INFO [info: log.py, 20] 请求数据:{"charge_type": 1, "remark": "beizhu", "reward_money": "100", "money": "100", "cashier_id": "1234871385", "award_money2": 10, "is_diy": "true", "shop_id": 1512995661, "biz_id": "20190117175323008", "cno": "1811182573790562", "recommenderecode2": 9002}
+[2019-01-17 17:53:23] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:53:23] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:53:23] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-17 17:53:24] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:53:24] INFO [info: log.py, 20] 请求数据:{"is_diy": false, "biz_id": "20190117175323008"}
+[2019-01-17 17:53:24] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:53:24] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:53:25] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2019-01-17 17:53:27] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:53:27] INFO [info: log.py, 20] 请求数据:{"activity_ids2": ["0"], "count_num": 2, "cashier_id": "1234871385", "products2": [{"num": "1", "name": "388", "no": 388, "coupons_ids2": ["1597533836855947312"], "price": "100", "tags2": ["来自中国的美味"], "is_activity": 1}], "sub_credit": 0, "shop_id": 1512995661, "biz_id": "20190117175327009", "payment_mode": 12, "consume_amount": 100, "gift_coupons_ids": [""], "credit_amount": -1, "payment_amount": 0, "table_id": "A023", "deno_coupon_ids": [""], "cno": "1811182573790562", "diy_gift_coupon_pay2": [{"user_coupon_id": "", "deno": 100}], "sub_balance": 100, "tags2": ["舌尖上的中国"]}
+[2019-01-17 17:53:27] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:53:27] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:53:28] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/preview HTTP/1.1" 200 None
+[2019-01-17 17:53:29] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:53:29] INFO [info: log.py, 20] 请求数据:{"verify_code": "000000", "biz_id": "20190117175327009"}
+[2019-01-17 17:53:29] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:53:29] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:53:29] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/commit HTTP/1.1" 200 None
+[2019-01-17 17:53:32] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:53:32] INFO [info: log.py, 20] 请求数据:{"biz_id": "20190117175327009", "send_notification2": false, "cashier_id": "1234871385"}
+[2019-01-17 17:53:32] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:53:32] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:53:33] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/cancel HTTP/1.1" 200 None
+[2019-01-17 17:53:37] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:53:37] INFO [info: log.py, 20] 请求数据:{"charge_type": 1, "remark": "beizhu", "reward_money": "100", "money": "100", "cashier_id": "1234871385", "award_money2": 10, "is_diy": "true", "shop_id": 1512995661, "biz_id": "20190117175337008", "cno": "1811182573790562", "recommenderecode2": 9002}
+[2019-01-17 17:53:37] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:53:37] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:53:37] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-17 17:53:38] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:53:38] INFO [info: log.py, 20] 请求数据:{"is_diy": false, "biz_id": "20190117175337008"}
+[2019-01-17 17:53:38] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:53:38] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:53:39] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2019-01-17 17:53:41] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:53:41] INFO [info: log.py, 20] 请求数据:{"activity_ids2": ["0"], "count_num": 2, "cashier_id": "1234871385", "products2": [{"num": "1", "name": "388", "no": 388, "coupons_ids2": ["1597533836855947312"], "price": "100", "tags2": ["来自中国的美味"], "is_activity": 1}], "sub_credit": 0, "shop_id": 1512995661, "biz_id": "20190117175341009", "payment_mode": 8, "consume_amount": 100, "gift_coupons_ids": [""], "credit_amount": -1, "payment_amount": 0, "table_id": "A023", "deno_coupon_ids": [""], "cno": "1811182573790562", "diy_gift_coupon_pay2": [{"user_coupon_id": "", "deno": 100}], "sub_balance": 100, "tags2": ["舌尖上的中国"]}
+[2019-01-17 17:53:41] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:53:41] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:53:41] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/preview HTTP/1.1" 200 None
+[2019-01-17 17:53:43] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:53:43] INFO [info: log.py, 20] 请求数据:{"verify_code": "000000", "biz_id": "20190117175341009"}
+[2019-01-17 17:53:43] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:53:43] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:53:44] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/commit HTTP/1.1" 200 None
+[2019-01-17 17:53:45] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:53:45] INFO [info: log.py, 20] 请求数据:{"biz_id": "20190117175341009", "send_notification2": false, "cashier_id": "1234871385"}
+[2019-01-17 17:53:45] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:53:45] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:53:45] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/cancel HTTP/1.1" 200 None
+[2019-01-17 17:53:49] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:53:49] INFO [info: log.py, 20] 请求数据:{"charge_type": 1, "remark": "beizhu", "reward_money": "100", "money": "100", "cashier_id": "1234871385", "award_money2": 10, "is_diy": "true", "shop_id": 1512995661, "biz_id": "20190117175349008", "cno": "1811182573790562", "recommenderecode2": 9002}
+[2019-01-17 17:53:49] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:53:49] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:53:50] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-17 17:53:51] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:53:51] INFO [info: log.py, 20] 请求数据:{"is_diy": false, "biz_id": "20190117175349008"}
+[2019-01-17 17:53:51] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:53:51] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:53:51] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2019-01-17 17:53:54] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:53:54] INFO [info: log.py, 20] 请求数据:{"activity_ids2": ["0"], "count_num": 2, "cashier_id": "1234871385", "products2": [{"num": "1", "name": "388", "no": 388, "coupons_ids2": ["1597533836855947312"], "price": "100", "tags2": ["来自中国的美味"], "is_activity": 1}], "sub_credit": 0, "shop_id": 1512995661, "biz_id": "20190117175354009", "payment_mode": 7, "consume_amount": 100, "gift_coupons_ids": [""], "credit_amount": -1, "payment_amount": 0, "table_id": "A023", "deno_coupon_ids": [""], "cno": "1811182573790562", "diy_gift_coupon_pay2": [{"user_coupon_id": "", "deno": 100}], "sub_balance": 100, "tags2": ["舌尖上的中国"]}
+[2019-01-17 17:53:54] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:53:54] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:53:55] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/preview HTTP/1.1" 200 None
+[2019-01-17 17:53:58] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:53:58] INFO [info: log.py, 20] 请求数据:{"verify_code": "000000", "biz_id": "20190117175354009"}
+[2019-01-17 17:53:58] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:53:58] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:53:58] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/commit HTTP/1.1" 200 None
+[2019-01-17 17:54:00] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:54:00] INFO [info: log.py, 20] 请求数据:{"biz_id": "20190117175354009", "send_notification2": false, "cashier_id": "1234871385"}
+[2019-01-17 17:54:00] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:54:00] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:54:01] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/cancel HTTP/1.1" 200 None
+[2019-01-17 17:54:03] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:54:03] INFO [info: log.py, 20] 请求数据:{"charge_type": 1, "remark": "beizhu", "reward_money": "100", "money": "100", "cashier_id": "1234871385", "award_money2": 10, "is_diy": "true", "shop_id": 1512995661, "biz_id": "20190117175403008", "cno": "1811182573790562", "recommenderecode2": 9002}
+[2019-01-17 17:54:03] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:54:03] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:54:03] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-17 17:54:05] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:54:05] INFO [info: log.py, 20] 请求数据:{"is_diy": false, "biz_id": "20190117175403008"}
+[2019-01-17 17:54:05] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:54:05] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:54:06] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2019-01-17 17:54:09] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:54:09] INFO [info: log.py, 20] 请求数据:{"activity_ids2": ["0"], "count_num": 2, "cashier_id": "1234871385", "products2": [{"num": "1", "name": "388", "no": 388, "coupons_ids2": ["1597533836855947312"], "price": "100", "tags2": ["来自中国的美味"], "is_activity": 1}], "sub_credit": 0, "shop_id": 1512995661, "biz_id": "20190117175409009", "payment_mode": 11, "consume_amount": 100, "gift_coupons_ids": [""], "credit_amount": -1, "payment_amount": 0, "table_id": "A023", "deno_coupon_ids": [""], "cno": "1811182573790562", "diy_gift_coupon_pay2": [{"user_coupon_id": "", "deno": 100}], "sub_balance": 100, "tags2": ["舌尖上的中国"]}
+[2019-01-17 17:54:09] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:54:09] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:54:09] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/preview HTTP/1.1" 200 None
+[2019-01-17 17:54:12] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:54:12] INFO [info: log.py, 20] 请求数据:{"verify_code": "000000", "biz_id": "20190117175409009"}
+[2019-01-17 17:54:12] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:54:12] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:54:13] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/commit HTTP/1.1" 200 None
+[2019-01-17 17:54:15] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:54:15] INFO [info: log.py, 20] 请求数据:{"biz_id": "20190117175409009", "send_notification2": false, "cashier_id": "1234871385"}
+[2019-01-17 17:54:15] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:54:15] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:54:15] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/cancel HTTP/1.1" 200 None
+[2019-01-17 17:54:17] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:54:17] INFO [info: log.py, 20] 请求数据:{"charge_type": 1, "remark": "beizhu", "reward_money": "100", "money": "100", "cashier_id": "1234871385", "award_money2": 10, "is_diy": "true", "shop_id": 1512995661, "biz_id": "20190117175417008", "cno": "1811182573790562", "recommenderecode2": 9002}
+[2019-01-17 17:54:17] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:54:17] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:54:17] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-17 17:54:19] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:54:19] INFO [info: log.py, 20] 请求数据:{"is_diy": false, "biz_id": "20190117175417008"}
+[2019-01-17 17:54:19] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:54:19] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:54:20] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2019-01-17 17:54:24] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:54:24] INFO [info: log.py, 20] 请求数据:{"activity_ids2": ["0"], "count_num": 2, "cashier_id": "1234871385", "products2": [{"num": "1", "name": "388", "no": 388, "coupons_ids2": ["1597533836855947312"], "price": "100", "tags2": ["来自中国的美味"], "is_activity": 1}], "sub_credit": 0, "shop_id": 1512995661, "biz_id": "20190117175424009", "payment_mode": 10, "consume_amount": 100, "gift_coupons_ids": [""], "credit_amount": -1, "payment_amount": 0, "table_id": "A023", "deno_coupon_ids": [""], "cno": "1811182573790562", "diy_gift_coupon_pay2": [{"user_coupon_id": "", "deno": 100}], "sub_balance": 100, "tags2": ["舌尖上的中国"]}
+[2019-01-17 17:54:24] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:54:24] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:54:24] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/preview HTTP/1.1" 200 None
+[2019-01-17 17:54:25] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:54:25] INFO [info: log.py, 20] 请求数据:{"verify_code": "000000", "biz_id": "20190117175424009"}
+[2019-01-17 17:54:25] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:54:25] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:54:26] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/commit HTTP/1.1" 200 None
+[2019-01-17 17:54:29] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:54:29] INFO [info: log.py, 20] 请求数据:{"biz_id": "20190117175424009", "send_notification2": false, "cashier_id": "1234871385"}
+[2019-01-17 17:54:29] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:54:29] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:54:29] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/cancel HTTP/1.1" 200 None
+[2019-01-17 17:54:32] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:54:32] INFO [info: log.py, 20] 请求数据:{"charge_type": 1, "remark": "beizhu", "reward_money": "100", "money": "100", "cashier_id": "1234871385", "award_money2": 10, "is_diy": "true", "shop_id": 1512995661, "biz_id": "20190117175432008", "cno": "1811182573790562", "recommenderecode2": 9002}
+[2019-01-17 17:54:32] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:54:32] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:54:33] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-17 17:54:34] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:54:34] INFO [info: log.py, 20] 请求数据:{"is_diy": false, "biz_id": "20190117175432008"}
+[2019-01-17 17:54:34] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:54:34] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:54:34] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2019-01-17 17:54:36] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:54:36] INFO [info: log.py, 20] 请求数据:{"activity_ids2": ["0"], "count_num": 2, "cashier_id": "1234871385", "products2": [{"num": "1", "name": "388", "no": 388, "coupons_ids2": ["1597533836855947312"], "price": "100", "tags2": ["来自中国的美味"], "is_activity": 1}], "sub_credit": 0, "shop_id": 1512995661, "biz_id": "20190117175436009", "payment_mode": 9, "consume_amount": 100, "gift_coupons_ids": [""], "credit_amount": -1, "payment_amount": 0, "table_id": "A023", "deno_coupon_ids": [""], "cno": "1811182573790562", "diy_gift_coupon_pay2": [{"user_coupon_id": "", "deno": 100}], "sub_balance": 100, "tags2": ["舌尖上的中国"]}
+[2019-01-17 17:54:36] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:54:36] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:54:37] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/preview HTTP/1.1" 200 None
+[2019-01-17 17:54:38] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:54:38] INFO [info: log.py, 20] 请求数据:{"verify_code": "000000", "biz_id": "20190117175436009"}
+[2019-01-17 17:54:38] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:54:38] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:54:38] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/commit HTTP/1.1" 200 None
+[2019-01-17 17:54:39] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:54:39] INFO [info: log.py, 20] 请求数据:{"biz_id": "20190117175436009", "send_notification2": false, "cashier_id": "1234871385"}
+[2019-01-17 17:54:39] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:54:39] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:54:40] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/cancel HTTP/1.1" 200 None
+[2019-01-17 17:54:44] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:54:44] INFO [info: log.py, 20] 请求数据:{"charge_type": 1, "remark": "beizhu", "reward_money": "100", "money": "100", "cashier_id": "1234871385", "award_money2": 10, "is_diy": "true", "shop_id": 1512995661, "biz_id": "20190117175444008", "cno": "1811182573790562", "recommenderecode2": 9002}
+[2019-01-17 17:54:44] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:54:44] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:54:44] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-17 17:54:47] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:54:47] INFO [info: log.py, 20] 请求数据:{"is_diy": false, "biz_id": "20190117175444008"}
+[2019-01-17 17:54:47] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:54:47] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:54:48] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2019-01-17 17:54:52] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:54:52] INFO [info: log.py, 20] 请求数据:{"activity_ids2": ["0"], "count_num": 2, "cashier_id": "1234871385", "products2": [{"num": "1", "name": "388", "no": 388, "coupons_ids2": ["1597533836855947312"], "price": "100", "tags2": ["来自中国的美味"], "is_activity": 1}], "sub_credit": 0, "shop_id": 1512995661, "biz_id": "20190117175452009", "payment_mode": 1, "consume_amount": 100, "gift_coupons_ids": [""], "credit_amount": 0, "payment_amount": 0, "table_id": "A023", "deno_coupon_ids": [""], "cno": "1811182573790562", "diy_gift_coupon_pay2": [{"user_coupon_id": "", "deno": 100}], "sub_balance": 100, "tags2": ["舌尖上的中国"]}
+[2019-01-17 17:54:52] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:54:52] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:54:52] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/preview HTTP/1.1" 200 None
+[2019-01-17 17:54:53] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:54:53] INFO [info: log.py, 20] 请求数据:{"verify_code": "000000", "biz_id": "20190117175452009"}
+[2019-01-17 17:54:53] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:54:53] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:54:54] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/commit HTTP/1.1" 200 None
+[2019-01-17 17:54:55] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:54:55] INFO [info: log.py, 20] 请求数据:{"biz_id": "20190117175452009", "send_notification2": false, "cashier_id": "1234871385"}
+[2019-01-17 17:54:55] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:54:55] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:54:55] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/cancel HTTP/1.1" 200 None
+[2019-01-17 17:54:57] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:54:57] INFO [info: log.py, 20] 请求数据:{"charge_type": 1, "remark": "beizhu", "reward_money": "100", "money": "100", "cashier_id": "1234871385", "award_money2": 10, "is_diy": "true", "shop_id": 1512995661, "biz_id": "20190117175457008", "cno": "1811182573790562", "recommenderecode2": 9002}
+[2019-01-17 17:54:57] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:54:57] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:54:58] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-17 17:55:01] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:55:01] INFO [info: log.py, 20] 请求数据:{"is_diy": false, "biz_id": "20190117175457008"}
+[2019-01-17 17:55:01] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:55:01] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:55:01] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2019-01-17 17:55:03] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:55:03] INFO [info: log.py, 20] 请求数据:{"activity_ids2": ["0"], "count_num": 2, "cashier_id": "1234871385", "products2": [{"num": "1", "name": "388", "no": 388, "coupons_ids2": ["1597533836855947312"], "price": "100", "tags2": ["来自中国的美味"], "is_activity": 1}], "sub_credit": 0, "shop_id": 1512995661, "biz_id": "20190117175503009", "payment_mode": 3, "consume_amount": 100, "gift_coupons_ids": [""], "credit_amount": 0, "payment_amount": 0, "table_id": "A023", "deno_coupon_ids": [""], "cno": "1811182573790562", "diy_gift_coupon_pay2": [{"user_coupon_id": "", "deno": 100}], "sub_balance": 100, "tags2": ["舌尖上的中国"]}
+[2019-01-17 17:55:03] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:55:03] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:55:04] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/preview HTTP/1.1" 200 None
+[2019-01-17 17:55:05] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:55:05] INFO [info: log.py, 20] 请求数据:{"verify_code": "000000", "biz_id": "20190117175503009"}
+[2019-01-17 17:55:05] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:55:05] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:55:05] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/commit HTTP/1.1" 200 None
+[2019-01-17 17:55:08] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:55:08] INFO [info: log.py, 20] 请求数据:{"biz_id": "20190117175503009", "send_notification2": false, "cashier_id": "1234871385"}
+[2019-01-17 17:55:08] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:55:08] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:55:09] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/cancel HTTP/1.1" 200 None
+[2019-01-17 17:55:11] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:55:11] INFO [info: log.py, 20] 请求数据:{"charge_type": 1, "remark": "beizhu", "reward_money": "100", "money": "100", "cashier_id": "1234871385", "award_money2": 10, "is_diy": "true", "shop_id": 1512995661, "biz_id": "20190117175511008", "cno": "1811182573790562", "recommenderecode2": 9002}
+[2019-01-17 17:55:11] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:55:11] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:55:11] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-17 17:55:13] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:55:13] INFO [info: log.py, 20] 请求数据:{"is_diy": false, "biz_id": "20190117175511008"}
+[2019-01-17 17:55:13] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:55:13] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:55:14] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2019-01-17 17:55:16] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:55:16] INFO [info: log.py, 20] 请求数据:{"activity_ids2": ["0"], "count_num": 2, "cashier_id": "1234871385", "products2": [{"num": "1", "name": "388", "no": 388, "coupons_ids2": ["1597533836855947312"], "price": "100", "tags2": ["来自中国的美味"], "is_activity": 1}], "sub_credit": 0, "shop_id": 1512995661, "biz_id": "20190117175516009", "payment_mode": 2, "consume_amount": 100, "gift_coupons_ids": [""], "credit_amount": 0, "payment_amount": 0, "table_id": "A023", "deno_coupon_ids": [""], "cno": "1811182573790562", "diy_gift_coupon_pay2": [{"user_coupon_id": "", "deno": 100}], "sub_balance": 100, "tags2": ["舌尖上的中国"]}
+[2019-01-17 17:55:16] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:55:16] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:55:16] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/preview HTTP/1.1" 200 None
+[2019-01-17 17:55:19] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:55:19] INFO [info: log.py, 20] 请求数据:{"verify_code": "000000", "biz_id": "20190117175516009"}
+[2019-01-17 17:55:19] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:55:19] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:55:20] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/commit HTTP/1.1" 200 None
+[2019-01-17 17:55:22] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:55:22] INFO [info: log.py, 20] 请求数据:{"biz_id": "20190117175516009", "send_notification2": false, "cashier_id": "1234871385"}
+[2019-01-17 17:55:22] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:55:22] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:55:23] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/cancel HTTP/1.1" 200 None
+[2019-01-17 17:55:27] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:55:27] INFO [info: log.py, 20] 请求数据:{"charge_type": 1, "remark": "beizhu", "reward_money": "100", "money": "100", "cashier_id": "1234871385", "award_money2": 10, "is_diy": "true", "shop_id": 1512995661, "biz_id": "20190117175527008", "cno": "1811182573790562", "recommenderecode2": 9002}
+[2019-01-17 17:55:27] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:55:27] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:55:27] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-17 17:55:29] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:55:29] INFO [info: log.py, 20] 请求数据:{"is_diy": false, "biz_id": "20190117175527008"}
+[2019-01-17 17:55:29] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:55:29] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:55:30] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2019-01-17 17:55:34] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:55:34] INFO [info: log.py, 20] 请求数据:{"activity_ids2": ["0"], "count_num": 2, "cashier_id": "1234871385", "products2": [{"num": "1", "name": "388", "no": 388, "coupons_ids2": ["1597533836855947312"], "price": "100", "tags2": ["来自中国的美味"], "is_activity": 1}], "sub_credit": 0, "shop_id": 1512995661, "biz_id": "20190117175534009", "payment_mode": 6, "consume_amount": 100, "gift_coupons_ids": [""], "credit_amount": 0, "payment_amount": 0, "table_id": "A023", "deno_coupon_ids": [""], "cno": "1811182573790562", "diy_gift_coupon_pay2": [{"user_coupon_id": "", "deno": 100}], "sub_balance": 100, "tags2": ["舌尖上的中国"]}
+[2019-01-17 17:55:34] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:55:34] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:55:34] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/preview HTTP/1.1" 200 None
+[2019-01-17 17:55:36] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:55:36] INFO [info: log.py, 20] 请求数据:{"verify_code": "000000", "biz_id": "20190117175534009"}
+[2019-01-17 17:55:36] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:55:36] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:55:37] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/commit HTTP/1.1" 200 None
+[2019-01-17 17:55:39] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:55:39] INFO [info: log.py, 20] 请求数据:{"biz_id": "20190117175534009", "send_notification2": false, "cashier_id": "1234871385"}
+[2019-01-17 17:55:39] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:55:39] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:55:39] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/cancel HTTP/1.1" 200 None
+[2019-01-17 17:55:43] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:55:43] INFO [info: log.py, 20] 请求数据:{"charge_type": 1, "remark": "beizhu", "reward_money": "100", "money": "100", "cashier_id": "1234871385", "award_money2": 10, "is_diy": "true", "shop_id": 1512995661, "biz_id": "20190117175543008", "cno": "1811182573790562", "recommenderecode2": 9002}
+[2019-01-17 17:55:43] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:55:43] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:55:44] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-17 17:55:46] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:55:46] INFO [info: log.py, 20] 请求数据:{"is_diy": false, "biz_id": "20190117175543008"}
+[2019-01-17 17:55:46] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:55:46] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:55:46] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2019-01-17 17:55:48] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:55:48] INFO [info: log.py, 20] 请求数据:{"activity_ids2": ["0"], "count_num": 2, "cashier_id": "1234871385", "products2": [{"num": "1", "name": "388", "no": 388, "coupons_ids2": ["1597533836855947312"], "price": "100", "tags2": ["来自中国的美味"], "is_activity": 1}], "sub_credit": 0, "shop_id": 1512995661, "biz_id": "20190117175548009", "payment_mode": 4, "consume_amount": 100, "gift_coupons_ids": [""], "credit_amount": 0, "payment_amount": 0, "table_id": "A023", "deno_coupon_ids": [""], "cno": "1811182573790562", "diy_gift_coupon_pay2": [{"user_coupon_id": "", "deno": 100}], "sub_balance": 100, "tags2": ["舌尖上的中国"]}
+[2019-01-17 17:55:48] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:55:48] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:55:49] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/preview HTTP/1.1" 200 None
+[2019-01-17 17:55:51] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:55:51] INFO [info: log.py, 20] 请求数据:{"verify_code": "000000", "biz_id": "20190117175548009"}
+[2019-01-17 17:55:51] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:55:51] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:55:51] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/commit HTTP/1.1" 200 None
+[2019-01-17 17:55:54] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:55:54] INFO [info: log.py, 20] 请求数据:{"biz_id": "20190117175548009", "send_notification2": false, "cashier_id": "1234871385"}
+[2019-01-17 17:55:54] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:55:54] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:55:55] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/cancel HTTP/1.1" 200 None
+[2019-01-17 17:55:57] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:55:57] INFO [info: log.py, 20] 请求数据:{"charge_type": 1, "remark": "beizhu", "reward_money": "100", "money": "100", "cashier_id": "1234871385", "award_money2": 10, "is_diy": true, "shop_id": 1512995661, "biz_id": "20190117175557007", "cno": "1003935056208150", "recommenderecode2": 9002}
+[2019-01-17 17:55:57] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:55:57] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:55:57] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-17 17:55:58] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:55:58] INFO [info: log.py, 20] 请求数据:{"is_diy": true, "biz_id": "20190117175557007"}
+[2019-01-17 17:55:58] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:55:58] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:55:59] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2019-01-17 17:56:01] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:56:01] INFO [info: log.py, 20] 请求数据:{"cno": "1003935056208150", "shop_id": "1512995661"}
+[2019-01-17 17:56:01] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:56:01] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:56:01] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/receiptstat HTTP/1.1" 200 None
+[2019-01-17 17:56:02] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:56:02] INFO [info: log.py, 20] 请求数据:{"money": 1, "cno": 1003935056208150, "shop_id": "1512995661", "cashier_id": "1234871385", "biz_id": "20190117175557007"}
+[2019-01-17 17:56:02] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:56:02] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:56:02] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/receiptbatch HTTP/1.1" 200 None
+[2019-01-17 17:56:04] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:56:04] INFO [info: log.py, 20] 请求数据:{"page": 1}
+[2019-01-17 17:56:04] INFO [info: log.py, 20] 请求Appid:dp10As24x4DJoMtqbcywEDVo
+[2019-01-17 17:56:04] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:56:05] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /activity/otherlist HTTP/1.1" 200 None
+[2019-01-17 17:56:07] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:56:07] INFO [info: log.py, 20] 请求数据:{"phone": "13718651998", "aid": "3032925", "biz_id": "2019011717560701"}
+[2019-01-17 17:56:07] INFO [info: log.py, 20] 请求Appid:dp10As24x4DJoMtqbcywEDVo
+[2019-01-17 17:56:07] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:56:07] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /coupon/cmbcothersend HTTP/1.1" 200 None
+[2019-01-17 17:56:10] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:56:10] INFO [info: log.py, 20] 请求数据:{"coupon_code": "1622900964452427", "cashier_id": 1233937492}
+[2019-01-17 17:56:10] INFO [info: log.py, 20] 请求Appid:dp1mFO1iEmEftoIxQJBH6g
+[2019-01-17 17:56:10] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:56:10] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /coupon/otherverification HTTP/1.1" 200 None
+[2019-01-17 17:56:12] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:56:12] INFO [info: log.py, 20] 请求数据:{"page": 1}
+[2019-01-17 17:56:12] INFO [info: log.py, 20] 请求Appid:dp10As24x4DJoMtqbcywEDVo
+[2019-01-17 17:56:12] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:56:12] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /activity/otherlist HTTP/1.1" 200 None
+[2019-01-17 17:56:14] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:56:14] INFO [info: log.py, 20] 请求数据:{"cno": 1199918, "aid": "3032925", "biz_id": "20190117175614011"}
+[2019-01-17 17:56:14] INFO [info: log.py, 20] 请求Appid:dp10As24x4DJoMtqbcywEDVo
+[2019-01-17 17:56:14] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:56:14] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /coupon/othersend HTTP/1.1" 200 None
+[2019-01-17 17:56:16] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:56:16] INFO [info: log.py, 20] 请求数据:{"coupon_code": 1622900972386158, "cashier_id": 1233937492}
+[2019-01-17 17:56:16] INFO [info: log.py, 20] 请求Appid:dp1mFO1iEmEftoIxQJBH6g
+[2019-01-17 17:56:16] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:56:16] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /coupon/otherverification HTTP/1.1" 200 None
+[2019-01-17 17:56:19] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:56:19] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "amount": 1, "shop_id": "1112645845", "template_id": 8891705, "biz_id": "20190117175619013"}
+[2019-01-17 17:56:19] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-17 17:56:19] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:56:20] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /coupon/send HTTP/1.1" 200 None
+[2019-01-17 17:56:22] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:56:22] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "shop_id": "1112645845"}
+[2019-01-17 17:56:22] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-17 17:56:22] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:56:22] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-17 17:56:23] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:56:23] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "remark": "核销", "shop_id": 1112645845, "coupon_ids": ["1622890070282855721"], "cashier_id": "1218054703"}
+[2019-01-17 17:56:23] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-17 17:56:23] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:56:23] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /coupon/adjust HTTP/1.1" 200 None
+[2019-01-17 17:56:25] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:56:25] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "amount": 1, "shop_id": "1112645845", "template_id": 8891705, "biz_id": "20190117175625010"}
+[2019-01-17 17:56:25] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-17 17:56:25] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:56:26] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /coupon/send HTTP/1.1" 200 None
+[2019-01-17 17:56:28] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:56:28] INFO [info: log.py, 20] 请求数据:{"biz_id": "20190117175625010"}
+[2019-01-17 17:56:28] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-17 17:56:28] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:56:28] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /coupon/cancel HTTP/1.1" 200 None
+[2019-01-17 17:56:30] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:56:30] INFO [info: log.py, 20] 请求数据:{"activity_ids2": ["0"], "count_num": 2, "cashier_id": "1234871385", "products2": [{"num": "1", "name": "388", "no": 388, "coupons_ids2": ["1597533836855947312"], "price": "100", "tags2": ["来自中国的美味"], "is_activity": 1}], "sub_credit": 0, "shop_id": "1512995661", "biz_id": "20190117175630012", "payment_mode": 1, "consume_amount": 100, "gift_coupons_ids": [""], "credit_amount": 0, "payment_amount": 0, "table_id": "A023", "deno_coupon_ids": [""], "cno": "1003935056208150", "diy_gift_coupon_pay2": [{"user_coupon_id": "", "deno": 100}], "sub_balance": 100, "tags2": ["舌尖上的中国"]}
+[2019-01-17 17:56:30] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:56:30] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:56:31] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/preview HTTP/1.1" 200 None
+[2019-01-17 17:56:34] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:56:34] INFO [info: log.py, 20] 请求数据:{"biz_id": "20190117175630012"}
+[2019-01-17 17:56:34] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-17 17:56:34] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:56:34] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /deal/rollback HTTP/1.1" 200 None
+[2019-01-17 17:56:36] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:56:36] INFO [info: log.py, 20] 请求数据:{"remark": "test", "shop_id": 1859151500, "change_type": 1, "cno": "1605855733813205", "cashier_id": "1115711086", "money": 20000, "award_money": 0}
+[2019-01-17 17:56:36] INFO [info: log.py, 20] 请求Appid:dp1mFO1iEmEftoIxQJBH6g
+[2019-01-17 17:56:36] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:56:37] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/change HTTP/1.1" 200 None
+[2019-01-17 17:56:39] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:56:39] INFO [info: log.py, 20] 请求数据:{"cno": "1605855733813205", "type": 1, "sid": 1859151500, "grid": 3006240, "cashier_id": "1115711086"}
+[2019-01-17 17:56:39] INFO [info: log.py, 20] 请求Appid:dp1mFO1iEmEftoIxQJBH6g
+[2019-01-17 17:56:39] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:56:39] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /grade/edit HTTP/1.1" 200 None
+[2019-01-17 17:56:41] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-17 17:56:41] INFO [info: log.py, 20] 请求数据:{"remark": "test", "shop_id": 1859151500, "change_type": 2, "cno": "1605855733813205", "cashier_id": "1115711086", "money": 20000, "award_money": 0}
+[2019-01-17 17:56:41] INFO [info: log.py, 20] 请求Appid:dp1mFO1iEmEftoIxQJBH6g
+[2019-01-17 17:56:41] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-17 17:56:42] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/change HTTP/1.1" 200 None

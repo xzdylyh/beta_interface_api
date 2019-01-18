@@ -1,7 +1,7 @@
 #_*_coding:utf-8_*_
 
-from interface_project.globalVar import gl
-from interface_project.library import scripts
+from globalVar import gl
+from library import scripts
 import os
 
 class BaseConfig(object):

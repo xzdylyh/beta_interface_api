@@ -2,7 +2,7 @@
 import logging
 import logging.config
 import time
-from interface_project.globalVar import gl
+from globalVar import gl
 import os
 
 class LogDebug(object):

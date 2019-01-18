@@ -1,10 +1,10 @@
 #_*_coding:utf-8_*_
 import unittest,os,ddt,json
-from interface_project.globalVar import gl
-from interface_project.library import HTMLTESTRunnerCN
+from globalVar import gl
+from library import HTMLTESTRunnerCN
 
-from interface_project.library import scripts
-from interface_project.library.http import HttpWebRequest
+from library import scripts
+from library.http import HttpWebRequest
 
 @ddt.ddt
 class TestGrade(unittest.TestCase):

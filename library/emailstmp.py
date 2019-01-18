@@ -7,8 +7,8 @@ from email.mime.base import MIMEBase
 from email.header import Header
 from email import encoders
 import time
-from interface_project.library import scripts
-from interface_project.globalVar import gl
+from library import scripts
+from globalVar import gl
 
 import yaml,os,base64
 

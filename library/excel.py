@@ -3,7 +3,7 @@ import xlrd as excel
 import json
 import gc #垃圾回收
 import os
-from interface_project.globalVar import gl
+from globalVar import gl
 
 
 

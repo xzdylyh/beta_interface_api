@@ -1,8 +1,8 @@
 # _*_coding:utf-8_*_
 import requests
-from interface_project.base.base_config import BaseConfig
+from base.base_config import BaseConfig
 import json
-from interface_project.library.scripts import retry
+from library.scripts import retry
 from requests.exceptions import ConnectionError,\
     ConnectTimeout,HTTPError,Timeout
 

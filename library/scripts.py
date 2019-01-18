@@ -3,7 +3,7 @@ from log import LogDebug
 import time,os,random
 import yaml,json
 from requests_toolbelt.multipart.encoder import MultipartEncoder
-from interface_project.globalVar import gl
+from globalVar import gl
 from requests.exceptions import (
     ConnectTimeout,
     ConnectionError,

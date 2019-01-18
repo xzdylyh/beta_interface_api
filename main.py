@@ -1,14 +1,14 @@
 #_*_coding:utf-8_*_
 import unittest
-from interface_project.testScenario import testScenarioCase
-from interface_project.testInterface import testActivity,testCharge,\
+from testScenario import testScenarioCase
+from testInterface import testActivity,testCharge,\
     testCoupon,testCredit,testDeal,testGrade,testManage,testProduct,\
     testSearch,testTag,testUser
 import os,time,json
-from interface_project.globalVar import gl
-from interface_project.library import HTMLTESTRunnerCN
-from interface_project.library import scripts
-from interface_project.library.emailstmp import EmailClass
+from globalVar import gl
+from library import HTMLTESTRunnerCN
+from library import scripts
+from library.emailstmp import EmailClass
 
 
 def loadTestsList():

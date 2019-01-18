@@ -1,9 +1,9 @@
 #_*_coding:utf-8_*_
 import requests,json
-from interface_project.base.base_config import BaseConfig
-from interface_project.library.scripts import getYamlfield
-from interface_project.library.scripts import retry
-from interface_project.globalVar import gl
+from base.base_config import BaseConfig
+from library.scripts import getYamlfield
+from library.scripts import retry
+from globalVar import gl
 
 class HttpWebRequest(object):
     url = "/user/getc2uinfo"

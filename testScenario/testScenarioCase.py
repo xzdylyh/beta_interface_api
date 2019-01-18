@@ -1,13 +1,13 @@
 #_*_coding:utf-8_*_
 import os,time,unittest
 import requests,yaml,json,ddt
-from interface_project.library.excel import Excel
-from interface_project.base import base_config
-from interface_project.globalVar import gl
-from interface_project.library import scripts
+from library.excel import Excel
+from base import base_config
+from globalVar import gl
+from library import scripts
 
-from interface_project.library import HTMLTESTRunnerCN
-from interface_project.library.http import HttpWebRequest
+from library import HTMLTESTRunnerCN
+from library.http import HttpWebRequest
 
 '''
 点评微生活－API接口场景
