@@ -179,22 +179,36 @@ USER_CASE16: #手机开卡
         Appid: dp1svA1gkNt8cQMkoIv7HmD1
 
 
-USER_CASE17: #会员全部券接口
+USER_CASE17: #查询会员等级信息
     Url: /user/grade
     Case1:
         Desc: 查询会员等级信息-电子卡
-        UserCouponList: {"cno":"1267119"}
+        UserGrade: {"cno":"1267119"}
         Appid: dp1svA1gkNt8cQMkoIv7HmD1
 
     Case2:
         Desc: 查询会员等级信息-实体卡
-        UserCouponList: {"cno":"1003935056208150"}
+        UserGrade: {"cno":"1268321242569692"}
         Appid: dp1svA1gkNt8cQMkoIv7HmD1
     Case3:
         Desc: 查询会员等级信息-手机号
-        UserCouponList: {"cno":"13718651998"}
+        UserGrade: {"cno":"13718651998"}
         Appid: dp1svA1gkNt8cQMkoIv7HmD1
     Case4:
         Desc: 查询会员等级信息-磁道号
-        UserCouponList: {"cno":"541831675410800277316754108002"}
+        UserGrade: {"cno":"541831675410800277316754108002"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+
+USER_CASE18: #绑定/修改手机号
+    Url: /user/bindphone
+    Case1: #source_type:默认api,点餐类型：4
+        Desc: 绑定/修改手机号-来源api
+        BindPhone: {"cno":"1268321242569692", "phone":"13718651993", "source_type":"api"}
+        Appid: dp1svA1gkNt8cQMkoIv7HmD1
+
+    Url: /user/bindphone
+    Case2: #source_type:默认api,点餐类型：4
+        Desc: 绑定/修改手机号-来源点餐
+        BindPhone: {"cno":"1268321242569692", "phone":"13718651994", "source_type":4}
         Appid: dp1svA1gkNt8cQMkoIv7HmD1

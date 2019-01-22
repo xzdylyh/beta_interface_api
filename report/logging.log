@@ -23957,3 +23957,1011 @@
 [2019-01-17 17:56:41] INFO [info: log.py, 20] 请求Appid:dp1mFO1iEmEftoIxQJBH6g
 [2019-01-17 17:56:41] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
 [2019-01-17 17:56:42] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/change HTTP/1.1" 200 None
+[2019-01-21 10:42:47] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-21 10:42:47] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-21 10:44:37] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-21 10:44:38] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-21 11:06:29] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-21 11:06:29] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-21 11:13:14] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-21 11:13:15] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-21 11:13:41] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-21 11:13:41] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-21 11:13:57] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-21 11:13:57] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-21 11:16:15] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-21 11:16:16] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-21 11:16:24] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-21 11:16:24] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-21 14:26:05] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-21 14:26:05] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-21 14:26:11] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-21 14:26:11] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-21 14:26:15] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-21 14:26:15] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-21 14:26:19] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-21 14:26:19] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-21 14:26:27] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-21 14:26:27] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-21 14:30:42] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-21 14:30:42] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-21 14:30:47] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-21 14:30:47] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-21 14:30:56] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-21 14:30:56] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-21 14:31:02] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-21 14:31:02] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-21 14:31:37] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-21 14:31:37] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-21 14:31:44] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-21 14:31:44] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-21 14:31:47] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-21 14:31:47] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-21 14:33:17] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-21 14:33:17] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-21 14:34:32] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-21 14:34:32] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:38:03] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:38:03] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:38:22] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:38:22] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:38:24] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:38:24] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:38:27] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:38:27] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:38:30] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:38:30] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:38:33] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:38:33] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:38:36] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:38:36] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:38:39] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:38:39] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:38:41] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:38:41] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:38:44] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:38:44] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:38:47] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:38:47] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:38:54] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:38:54] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:38:57] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:38:57] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:38:59] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:38:59] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:39:02] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:39:02] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:39:04] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:39:04] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:39:07] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:39:07] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:39:09] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:39:09] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:39:12] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:39:12] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:39:31] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:39:31] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:39:34] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:39:34] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:39:42] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:39:42] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:39:46] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:39:46] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:39:52] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:39:52] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:39:56] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:39:56] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:39:59] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:39:59] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:40:02] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:40:02] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:40:04] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:40:04] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:40:07] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:40:07] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:40:09] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:40:09] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:40:12] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:40:12] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 10:54:00] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:54:00] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-22 10:54:09] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:54:09] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-22 10:54:59] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:54:59] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-22 10:56:41] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:56:41] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-22 10:59:22] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:59:23] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-22 10:59:59] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 10:59:59] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-22 11:00:36] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:00:36] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-22 11:01:04] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:01:04] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-22 11:02:33] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:02:34] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/commit HTTP/1.1" 200 None
+[2019-01-22 11:06:43] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:06:43] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-22 11:08:45] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:08:45] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /charge/preview HTTP/1.1" 200 None
+[2019-01-22 11:24:53] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:24:53] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "page": 1}
+[2019-01-22 11:24:53] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:24:53] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:24:53] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/couponlist HTTP/1.1" 200 None
+[2019-01-22 11:24:55] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:24:55] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 11:24:55] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:24:55] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:24:55] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/couponlist HTTP/1.1" 200 None
+[2019-01-22 11:24:58] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:24:58] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "page": 2}
+[2019-01-22 11:24:58] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:24:58] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:24:59] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/couponlist HTTP/1.1" 200 None
+[2019-01-22 11:25:02] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:25:02] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 11:25:02] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:25:02] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:25:02] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/creditlist HTTP/1.1" 200 None
+[2019-01-22 11:25:04] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:25:04] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 11:25:04] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:25:04] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:25:04] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/dynamic HTTP/1.1" 200 None
+[2019-01-22 11:25:07] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:25:07] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "page": 1}
+[2019-01-22 11:25:07] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:25:07] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:25:07] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/getoverduecoupons HTTP/1.1" 200 None
+[2019-01-22 11:25:09] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:25:09] INFO [info: log.py, 20] 请求数据:{"c2u_id": "1267119-1596706562688198907"}
+[2019-01-22 11:25:09] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:25:09] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:25:09] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/getc2uinfo HTTP/1.1" 200 None
+[2019-01-22 11:25:11] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:25:11] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "page": 1}
+[2019-01-22 11:25:11] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:25:11] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:25:11] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/getusedcoupons HTTP/1.1" 200 None
+[2019-01-22 11:25:12] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:25:12] INFO [info: log.py, 20] 请求数据:{"cno": 1267119, "mergegrade": true, "acno": "1831675780211333"}
+[2019-01-22 11:25:12] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:25:12] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:25:12] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/mergeActualCard HTTP/1.1" 200 None
+[2019-01-22 11:25:15] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:25:15] INFO [info: log.py, 20] 请求数据:{"phone": "13718651995"}
+[2019-01-22 11:25:15] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:25:15] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:25:15] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/phonecard HTTP/1.1" 200 None
+[2019-01-22 11:25:18] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:25:18] INFO [info: log.py, 20] 请求数据:{"grade": 0, "phone": "13718651995"}
+[2019-01-22 11:25:18] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:25:18] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:25:18] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/phonecard HTTP/1.1" 200 None
+[2019-01-22 11:25:19] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:25:19] INFO [info: log.py, 20] 请求数据:{"phone": "13718651995", "shop_id": "1429830612"}
+[2019-01-22 11:25:19] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:25:19] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:25:19] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/phonecard HTTP/1.1" 200 None
+[2019-01-22 11:25:22] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:25:22] INFO [info: log.py, 20] 请求数据:{"grade": 0, "phone": "13718651995", "is_gift": 0, "shop_id": "1429830612"}
+[2019-01-22 11:25:22] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:25:22] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:25:22] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/phonecard HTTP/1.1" 200 None
+[2019-01-22 11:25:23] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:25:23] INFO [info: log.py, 20] 请求数据:{"phone": "13718651995", "is_gift": 0}
+[2019-01-22 11:25:23] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:25:24] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:25:24] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/phonecard HTTP/1.1" 200 None
+[2019-01-22 11:25:27] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:25:27] INFO [info: log.py, 20] 请求数据:{"cno": "1605855733813205"}
+[2019-01-22 11:25:27] INFO [info: log.py, 20] 请求Appid:dp1mFO1iEmEftoIxQJBH6g
+[2019-01-22 11:25:27] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:25:27] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/sendcode HTTP/1.1" 200 None
+[2019-01-22 11:25:27] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:25:27] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 11:25:27] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:25:27] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:25:27] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 11:25:28] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:25:28] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "shop_id": "1429830612"}
+[2019-01-22 11:25:28] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:25:28] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:25:28] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 11:25:29] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:25:29] INFO [info: log.py, 20] 请求数据:{"openid": "ohBubwav3gjx6PeQm2MFN_z47jS4"}
+[2019-01-22 11:25:29] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:25:29] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:25:29] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/cardinfo HTTP/1.1" 200 None
+[2019-01-22 11:25:32] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:25:32] INFO [info: log.py, 20] 请求数据:{"phone": "13800138188", "acno": "1109662303541283", "mode": "open", "sid": "1429830612"}
+[2019-01-22 11:25:32] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:25:32] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:25:32] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/checkcard HTTP/1.1" 200 None
+[2019-01-22 11:25:32] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:25:32] INFO [info: log.py, 20] 请求数据:{"username": "tianshu1", "cno": "1267119", "birth": "1990-06-01", "gender": 1}
+[2019-01-22 11:25:32] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:25:32] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:25:33] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/edit HTTP/1.1" 200 None
+[2019-01-22 11:25:35] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:25:35] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "gender": 2}
+[2019-01-22 11:25:35] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:25:35] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:25:35] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/edit HTTP/1.1" 200 None
+[2019-01-22 11:25:37] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:25:37] INFO [info: log.py, 20] 请求数据:{"username": "tianshu2", "cno": "1267119", "birth": "1991-06-01", "gender": 2}
+[2019-01-22 11:25:37] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:25:37] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:25:37] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/edit HTTP/1.1" 200 None
+[2019-01-22 11:25:39] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:25:39] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "birth": "1991-07-01"}
+[2019-01-22 11:25:39] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:25:39] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:25:39] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/edit HTTP/1.1" 200 None
+[2019-01-22 11:25:41] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:25:41] INFO [info: log.py, 20] 请求数据:{"username": "tianshu3", "cno": "1267119"}
+[2019-01-22 11:25:41] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:25:41] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:25:41] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/edit HTTP/1.1" 200 None
+[2019-01-22 11:25:43] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:25:43] INFO [info: log.py, 20] 请求数据:{"openid": "ohBubwav3gjx6PeQm2MFN_z47jS4"}
+[2019-01-22 11:25:43] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:25:43] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:25:43] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/getinfo HTTP/1.1" 200 None
+[2019-01-22 11:25:44] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:25:44] INFO [info: log.py, 20] 请求数据:{"unionid": "1520848192"}
+[2019-01-22 11:25:44] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:25:44] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:25:44] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/ugetinfo HTTP/1.1" 200 None
+[2019-01-22 11:25:48] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:25:48] INFO [info: log.py, 20] 请求数据:{"unionid": "20190122112548005", "shop_id": 1512995661, "phone": 13718651996}
+[2019-01-22 11:25:48] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-22 11:25:48] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:25:49] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/uopencard HTTP/1.1" 200 None
+[2019-01-22 11:25:52] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:25:52] INFO [info: log.py, 20] 请求数据:{"unionid": "20190122112552005", "shop_id": 1512995661}
+[2019-01-22 11:25:52] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-22 11:25:52] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:25:52] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/uopencard HTTP/1.1" 200 None
+[2019-01-22 11:28:57] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:28:57] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "page": 1}
+[2019-01-22 11:28:57] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:28:57] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:28:57] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/couponlist HTTP/1.1" 200 None
+[2019-01-22 11:28:58] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:28:58] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 11:28:58] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:28:58] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:28:58] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/couponlist HTTP/1.1" 200 None
+[2019-01-22 11:29:01] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:29:01] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "page": 2}
+[2019-01-22 11:29:01] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:29:02] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:29:02] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/couponlist HTTP/1.1" 200 None
+[2019-01-22 11:29:04] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:29:04] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 11:29:04] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:29:04] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:29:04] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/creditlist HTTP/1.1" 200 None
+[2019-01-22 11:29:06] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:29:06] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 11:29:06] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:29:06] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:29:06] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/dynamic HTTP/1.1" 200 None
+[2019-01-22 11:29:09] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:29:09] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "page": 1}
+[2019-01-22 11:29:09] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:29:09] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:29:09] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/getoverduecoupons HTTP/1.1" 200 None
+[2019-01-22 11:29:11] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:29:11] INFO [info: log.py, 20] 请求数据:{"c2u_id": "1267119-1596706562688198907"}
+[2019-01-22 11:29:11] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:29:11] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:29:11] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/getc2uinfo HTTP/1.1" 200 None
+[2019-01-22 11:29:12] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:29:12] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "page": 1}
+[2019-01-22 11:29:12] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:29:12] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:29:12] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/getusedcoupons HTTP/1.1" 200 None
+[2019-01-22 11:29:13] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:29:13] INFO [info: log.py, 20] 请求数据:{"cno": 1267119, "mergegrade": true, "acno": "1831675780211333"}
+[2019-01-22 11:29:13] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:29:13] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:29:13] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/mergeActualCard HTTP/1.1" 200 None
+[2019-01-22 11:29:16] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:29:16] INFO [info: log.py, 20] 请求数据:{"phone": "13718651995"}
+[2019-01-22 11:29:16] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:29:16] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:29:16] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/phonecard HTTP/1.1" 200 None
+[2019-01-22 11:29:18] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:29:18] INFO [info: log.py, 20] 请求数据:{"grade": 0, "phone": "13718651995"}
+[2019-01-22 11:29:18] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:29:18] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:29:18] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/phonecard HTTP/1.1" 200 None
+[2019-01-22 11:29:19] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:29:19] INFO [info: log.py, 20] 请求数据:{"phone": "13718651995", "shop_id": "1429830612"}
+[2019-01-22 11:29:19] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:29:19] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:29:19] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/phonecard HTTP/1.1" 200 None
+[2019-01-22 11:29:22] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:29:22] INFO [info: log.py, 20] 请求数据:{"grade": 0, "phone": "13718651995", "is_gift": 0, "shop_id": "1429830612"}
+[2019-01-22 11:29:22] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:29:22] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:29:22] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/phonecard HTTP/1.1" 200 None
+[2019-01-22 11:29:23] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:29:23] INFO [info: log.py, 20] 请求数据:{"phone": "13718651995", "is_gift": 0}
+[2019-01-22 11:29:23] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:29:23] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:29:23] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/phonecard HTTP/1.1" 200 None
+[2019-01-22 11:29:26] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:29:26] INFO [info: log.py, 20] 请求数据:{"cno": "1605855733813205"}
+[2019-01-22 11:29:26] INFO [info: log.py, 20] 请求Appid:dp1mFO1iEmEftoIxQJBH6g
+[2019-01-22 11:29:26] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:29:27] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/sendcode HTTP/1.1" 200 None
+[2019-01-22 11:29:27] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:29:27] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 11:29:27] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:29:27] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:29:27] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 11:29:28] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:29:28] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "shop_id": "1429830612"}
+[2019-01-22 11:29:28] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:29:28] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:29:28] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 11:29:30] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:29:30] INFO [info: log.py, 20] 请求数据:{"openid": "ohBubwav3gjx6PeQm2MFN_z47jS4"}
+[2019-01-22 11:29:30] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:29:30] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:29:30] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/cardinfo HTTP/1.1" 200 None
+[2019-01-22 11:29:33] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:29:33] INFO [info: log.py, 20] 请求数据:{"phone": "13800138188", "acno": "1109662303541283", "mode": "open", "sid": "1429830612"}
+[2019-01-22 11:29:33] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:29:33] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:29:33] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/checkcard HTTP/1.1" 200 None
+[2019-01-22 11:29:33] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:29:33] INFO [info: log.py, 20] 请求数据:{"username": "tianshu1", "cno": "1267119", "birth": "1990-06-01", "gender": 1}
+[2019-01-22 11:29:33] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:29:33] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:29:33] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/edit HTTP/1.1" 200 None
+[2019-01-22 11:29:34] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:29:34] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "gender": 2}
+[2019-01-22 11:29:34] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:29:34] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:29:35] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/edit HTTP/1.1" 200 None
+[2019-01-22 11:29:38] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:29:38] INFO [info: log.py, 20] 请求数据:{"username": "tianshu2", "cno": "1267119", "birth": "1991-06-01", "gender": 2}
+[2019-01-22 11:29:38] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:29:38] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:29:38] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/edit HTTP/1.1" 200 None
+[2019-01-22 11:29:41] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:29:41] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "birth": "1991-07-01"}
+[2019-01-22 11:29:41] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:29:41] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:29:41] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/edit HTTP/1.1" 200 None
+[2019-01-22 11:29:42] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:29:42] INFO [info: log.py, 20] 请求数据:{"username": "tianshu3", "cno": "1267119"}
+[2019-01-22 11:29:42] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:29:42] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:29:42] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/edit HTTP/1.1" 200 None
+[2019-01-22 11:29:44] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:29:44] INFO [info: log.py, 20] 请求数据:{"openid": "ohBubwav3gjx6PeQm2MFN_z47jS4"}
+[2019-01-22 11:29:44] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:29:44] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:29:44] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/getinfo HTTP/1.1" 200 None
+[2019-01-22 11:29:46] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:29:46] INFO [info: log.py, 20] 请求数据:{"unionid": "1520848192"}
+[2019-01-22 11:29:46] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:29:46] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:29:46] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/ugetinfo HTTP/1.1" 200 None
+[2019-01-22 11:29:50] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:29:50] INFO [info: log.py, 20] 请求数据:{"unionid": "20190122112950005", "shop_id": 1512995661, "phone": 13718651996}
+[2019-01-22 11:29:50] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-22 11:29:50] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:29:51] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/uopencard HTTP/1.1" 200 None
+[2019-01-22 11:29:55] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:29:55] INFO [info: log.py, 20] 请求数据:{"unionid": "20190122112955005", "shop_id": 1512995661}
+[2019-01-22 11:29:55] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-22 11:29:55] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:29:55] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/uopencard HTTP/1.1" 200 None
+[2019-01-22 11:31:40] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:31:40] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "page": 1}
+[2019-01-22 11:31:40] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:31:40] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:31:40] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/couponlist HTTP/1.1" 200 None
+[2019-01-22 11:31:42] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:31:42] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 11:31:42] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:31:42] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:31:42] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/couponlist HTTP/1.1" 200 None
+[2019-01-22 11:31:43] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:31:43] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "page": 2}
+[2019-01-22 11:31:43] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:31:43] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:31:43] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/couponlist HTTP/1.1" 200 None
+[2019-01-22 11:31:44] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:31:44] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 11:31:44] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:31:44] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:31:44] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/creditlist HTTP/1.1" 200 None
+[2019-01-22 11:31:46] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:31:46] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 11:31:46] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:31:46] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:31:46] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/dynamic HTTP/1.1" 200 None
+[2019-01-22 11:31:49] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:31:49] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "page": 1}
+[2019-01-22 11:31:49] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:31:49] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:31:49] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/getoverduecoupons HTTP/1.1" 200 None
+[2019-01-22 11:32:13] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:32:13] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "page": 1}
+[2019-01-22 11:32:13] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:32:13] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:32:13] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/couponlist HTTP/1.1" 200 None
+[2019-01-22 11:32:16] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:32:16] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 11:32:16] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:32:16] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:32:16] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/couponlist HTTP/1.1" 200 None
+[2019-01-22 11:32:18] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:32:18] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "page": 2}
+[2019-01-22 11:32:18] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:32:18] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:32:18] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/couponlist HTTP/1.1" 200 None
+[2019-01-22 11:32:21] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:32:21] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 11:32:21] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:32:21] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:32:21] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/creditlist HTTP/1.1" 200 None
+[2019-01-22 11:32:24] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:32:24] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 11:32:24] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:32:24] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:32:24] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/dynamic HTTP/1.1" 200 None
+[2019-01-22 11:32:27] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:32:27] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "page": 1}
+[2019-01-22 11:32:27] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:32:27] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:32:27] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/getoverduecoupons HTTP/1.1" 200 None
+[2019-01-22 11:32:30] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:32:30] INFO [info: log.py, 20] 请求数据:{"c2u_id": "1267119-1596706562688198907"}
+[2019-01-22 11:32:30] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:32:30] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:32:30] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/getc2uinfo HTTP/1.1" 200 None
+[2019-01-22 11:32:33] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:32:33] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "page": 1}
+[2019-01-22 11:32:33] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:32:33] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:32:34] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/getusedcoupons HTTP/1.1" 200 None
+[2019-01-22 11:32:35] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:32:35] INFO [info: log.py, 20] 请求数据:{"cno": 1267119, "mergegrade": true, "acno": "1831675780211333"}
+[2019-01-22 11:32:35] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:32:35] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:32:35] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/mergeActualCard HTTP/1.1" 200 None
+[2019-01-22 11:32:38] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:32:38] INFO [info: log.py, 20] 请求数据:{"phone": "13718651995"}
+[2019-01-22 11:32:38] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:32:38] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:32:38] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/phonecard HTTP/1.1" 200 None
+[2019-01-22 11:32:39] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:32:39] INFO [info: log.py, 20] 请求数据:{"grade": 0, "phone": "13718651995"}
+[2019-01-22 11:32:39] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:32:39] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:32:39] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/phonecard HTTP/1.1" 200 None
+[2019-01-22 11:32:40] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:32:40] INFO [info: log.py, 20] 请求数据:{"phone": "13718651995", "shop_id": "1429830612"}
+[2019-01-22 11:32:40] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:32:40] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:32:40] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/phonecard HTTP/1.1" 200 None
+[2019-01-22 11:32:42] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:32:42] INFO [info: log.py, 20] 请求数据:{"grade": 0, "phone": "13718651995", "is_gift": 0, "shop_id": "1429830612"}
+[2019-01-22 11:32:42] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:32:42] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:32:42] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/phonecard HTTP/1.1" 200 None
+[2019-01-22 11:32:43] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:32:43] INFO [info: log.py, 20] 请求数据:{"phone": "13718651995", "is_gift": 0}
+[2019-01-22 11:32:43] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:32:43] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:32:43] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/phonecard HTTP/1.1" 200 None
+[2019-01-22 11:32:46] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:32:46] INFO [info: log.py, 20] 请求数据:{"cno": "1605855733813205"}
+[2019-01-22 11:32:46] INFO [info: log.py, 20] 请求Appid:dp1mFO1iEmEftoIxQJBH6g
+[2019-01-22 11:32:46] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:32:46] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/sendcode HTTP/1.1" 200 None
+[2019-01-22 11:32:46] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:32:46] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 11:32:46] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:32:46] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:32:46] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 11:32:48] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:32:48] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "shop_id": "1429830612"}
+[2019-01-22 11:32:48] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:32:48] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:32:48] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 11:32:49] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:32:49] INFO [info: log.py, 20] 请求数据:{"openid": "ohBubwav3gjx6PeQm2MFN_z47jS4"}
+[2019-01-22 11:32:49] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:32:49] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:32:50] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/cardinfo HTTP/1.1" 200 None
+[2019-01-22 11:32:52] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:32:52] INFO [info: log.py, 20] 请求数据:{"phone": "13800138188", "acno": "1109662303541283", "mode": "open", "sid": "1429830612"}
+[2019-01-22 11:32:52] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:32:52] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:32:52] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/checkcard HTTP/1.1" 200 None
+[2019-01-22 11:32:52] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:32:52] INFO [info: log.py, 20] 请求数据:{"username": "tianshu1", "cno": "1267119", "birth": "1990-06-01", "gender": 1}
+[2019-01-22 11:32:52] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:32:52] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:32:52] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/edit HTTP/1.1" 200 None
+[2019-01-22 11:32:53] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:32:53] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "gender": 2}
+[2019-01-22 11:32:53] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:32:53] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:32:53] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/edit HTTP/1.1" 200 None
+[2019-01-22 11:32:56] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:32:56] INFO [info: log.py, 20] 请求数据:{"username": "tianshu2", "cno": "1267119", "birth": "1991-06-01", "gender": 2}
+[2019-01-22 11:32:56] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:32:56] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:32:56] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/edit HTTP/1.1" 200 None
+[2019-01-22 11:32:59] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:32:59] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "birth": "1991-07-01"}
+[2019-01-22 11:32:59] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:32:59] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:32:59] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/edit HTTP/1.1" 200 None
+[2019-01-22 11:33:01] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:33:01] INFO [info: log.py, 20] 请求数据:{"username": "tianshu3", "cno": "1267119"}
+[2019-01-22 11:33:01] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:33:01] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:33:01] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/edit HTTP/1.1" 200 None
+[2019-01-22 11:33:02] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:33:02] INFO [info: log.py, 20] 请求数据:{"openid": "ohBubwav3gjx6PeQm2MFN_z47jS4"}
+[2019-01-22 11:33:02] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:33:02] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:33:03] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/getinfo HTTP/1.1" 200 None
+[2019-01-22 11:33:04] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:33:04] INFO [info: log.py, 20] 请求数据:{"unionid": "1520848192"}
+[2019-01-22 11:33:04] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 11:33:04] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:33:04] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/ugetinfo HTTP/1.1" 200 None
+[2019-01-22 11:33:08] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:33:08] INFO [info: log.py, 20] 请求数据:{"unionid": "20190122113308005", "shop_id": 1512995661, "phone": 13718651996}
+[2019-01-22 11:33:08] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-22 11:33:08] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:33:08] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/uopencard HTTP/1.1" 200 None
+[2019-01-22 11:33:11] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 11:33:11] INFO [info: log.py, 20] 请求数据:{"unionid": "20190122113311005", "shop_id": 1512995661}
+[2019-01-22 11:33:11] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-22 11:33:11] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 11:33:11] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/uopencard HTTP/1.1" 200 None
+[2019-01-22 12:14:01] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:01] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "page": 1}
+[2019-01-22 12:14:01] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 12:14:01] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:01] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/couponlist HTTP/1.1" 200 None
+[2019-01-22 12:14:03] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:03] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 12:14:03] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 12:14:03] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:03] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/couponlist HTTP/1.1" 200 None
+[2019-01-22 12:14:04] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:04] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "page": 2}
+[2019-01-22 12:14:04] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 12:14:04] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:04] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/couponlist HTTP/1.1" 200 None
+[2019-01-22 12:14:07] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:07] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 12:14:07] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 12:14:07] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:07] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/creditlist HTTP/1.1" 200 None
+[2019-01-22 12:14:09] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:09] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 12:14:09] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 12:14:09] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:09] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/dynamic HTTP/1.1" 200 None
+[2019-01-22 12:14:10] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:10] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "page": 1}
+[2019-01-22 12:14:10] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 12:14:10] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:10] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/getoverduecoupons HTTP/1.1" 200 None
+[2019-01-22 12:14:13] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:13] INFO [info: log.py, 20] 请求数据:{"c2u_id": "1267119-1596706562688198907"}
+[2019-01-22 12:14:13] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 12:14:13] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:14] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/getc2uinfo HTTP/1.1" 200 None
+[2019-01-22 12:14:15] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:15] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "page": 1}
+[2019-01-22 12:14:15] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 12:14:15] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:15] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/getusedcoupons HTTP/1.1" 200 None
+[2019-01-22 12:14:18] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:18] INFO [info: log.py, 20] 请求数据:{"cno": 1267119, "mergegrade": true, "acno": "1831675780211333"}
+[2019-01-22 12:14:18] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 12:14:18] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:18] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/mergeActualCard HTTP/1.1" 200 None
+[2019-01-22 12:14:19] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:19] INFO [info: log.py, 20] 请求数据:{"phone": "13718651995"}
+[2019-01-22 12:14:19] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 12:14:19] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:19] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/phonecard HTTP/1.1" 200 None
+[2019-01-22 12:14:21] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:21] INFO [info: log.py, 20] 请求数据:{"grade": 0, "phone": "13718651995"}
+[2019-01-22 12:14:21] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 12:14:21] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:21] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/phonecard HTTP/1.1" 200 None
+[2019-01-22 12:14:23] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:23] INFO [info: log.py, 20] 请求数据:{"phone": "13718651995", "shop_id": "1429830612"}
+[2019-01-22 12:14:23] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 12:14:23] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:23] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/phonecard HTTP/1.1" 200 None
+[2019-01-22 12:14:25] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:25] INFO [info: log.py, 20] 请求数据:{"grade": 0, "phone": "13718651995", "is_gift": 0, "shop_id": "1429830612"}
+[2019-01-22 12:14:25] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 12:14:25] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:25] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/phonecard HTTP/1.1" 200 None
+[2019-01-22 12:14:26] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:26] INFO [info: log.py, 20] 请求数据:{"phone": "13718651995", "is_gift": 0}
+[2019-01-22 12:14:26] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 12:14:26] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:26] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/phonecard HTTP/1.1" 200 None
+[2019-01-22 12:14:29] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:29] INFO [info: log.py, 20] 请求数据:{"cno": "1605855733813205"}
+[2019-01-22 12:14:29] INFO [info: log.py, 20] 请求Appid:dp1mFO1iEmEftoIxQJBH6g
+[2019-01-22 12:14:29] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:29] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/sendcode HTTP/1.1" 200 None
+[2019-01-22 12:14:29] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:29] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 12:14:29] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 12:14:29] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:29] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 12:14:32] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:32] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "shop_id": "1429830612"}
+[2019-01-22 12:14:32] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 12:14:32] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:33] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 12:14:35] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:35] INFO [info: log.py, 20] 请求数据:{"openid": "ohBubwav3gjx6PeQm2MFN_z47jS4"}
+[2019-01-22 12:14:35] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 12:14:35] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:35] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/cardinfo HTTP/1.1" 200 None
+[2019-01-22 12:14:38] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:38] INFO [info: log.py, 20] 请求数据:{"phone": "13800138188", "acno": "1109662303541283", "mode": "open", "sid": "1429830612"}
+[2019-01-22 12:14:38] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 12:14:38] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:38] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/checkcard HTTP/1.1" 200 None
+[2019-01-22 12:14:38] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:38] INFO [info: log.py, 20] 请求数据:{"username": "tianshu1", "cno": "1267119", "birth": "1990-06-01", "gender": 1}
+[2019-01-22 12:14:38] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 12:14:38] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:38] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/edit HTTP/1.1" 200 None
+[2019-01-22 12:14:39] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:39] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "gender": 2}
+[2019-01-22 12:14:39] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 12:14:39] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:39] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/edit HTTP/1.1" 200 None
+[2019-01-22 12:14:40] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:40] INFO [info: log.py, 20] 请求数据:{"username": "tianshu2", "cno": "1267119", "birth": "1991-06-01", "gender": 2}
+[2019-01-22 12:14:40] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 12:14:40] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:40] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/edit HTTP/1.1" 200 None
+[2019-01-22 12:14:42] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:42] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "birth": "1991-07-01"}
+[2019-01-22 12:14:42] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 12:14:42] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:42] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/edit HTTP/1.1" 200 None
+[2019-01-22 12:14:43] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:43] INFO [info: log.py, 20] 请求数据:{"username": "tianshu3", "cno": "1267119"}
+[2019-01-22 12:14:43] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 12:14:43] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:44] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/edit HTTP/1.1" 200 None
+[2019-01-22 12:14:46] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:46] INFO [info: log.py, 20] 请求数据:{"openid": "ohBubwav3gjx6PeQm2MFN_z47jS4"}
+[2019-01-22 12:14:46] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 12:14:46] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:46] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/getinfo HTTP/1.1" 200 None
+[2019-01-22 12:14:49] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:49] INFO [info: log.py, 20] 请求数据:{"unionid": "1520848192"}
+[2019-01-22 12:14:49] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 12:14:49] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:49] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/ugetinfo HTTP/1.1" 200 None
+[2019-01-22 12:14:53] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:53] INFO [info: log.py, 20] 请求数据:{"unionid": "20190122121453005", "shop_id": 1512995661, "phone": 13718651996}
+[2019-01-22 12:14:53] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-22 12:14:53] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:53] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/uopencard HTTP/1.1" 200 None
+[2019-01-22 12:14:56] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 12:14:56] INFO [info: log.py, 20] 请求数据:{"unionid": "20190122121456005", "shop_id": 1512995661}
+[2019-01-22 12:14:56] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-22 12:14:56] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 12:14:57] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/uopencard HTTP/1.1" 200 None
+[2019-01-22 14:12:24] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:12:24] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "page": 1}
+[2019-01-22 14:12:24] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 14:12:24] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:12:24] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/couponlist HTTP/1.1" 200 None
+[2019-01-22 14:12:25] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:12:25] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 14:12:25] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 14:12:25] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:12:25] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/couponlist HTTP/1.1" 200 None
+[2019-01-22 14:12:26] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:12:26] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "page": 2}
+[2019-01-22 14:12:26] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 14:12:26] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:12:26] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/couponlist HTTP/1.1" 200 None
+[2019-01-22 14:12:27] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:12:27] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 14:12:27] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 14:12:28] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:12:28] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/creditlist HTTP/1.1" 200 None
+[2019-01-22 14:12:29] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:12:29] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 14:12:29] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 14:12:29] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:12:29] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/dynamic HTTP/1.1" 200 None
+[2019-01-22 14:12:31] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:12:31] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "page": 1}
+[2019-01-22 14:12:31] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 14:12:31] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:12:31] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/getoverduecoupons HTTP/1.1" 200 None
+[2019-01-22 14:12:33] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:12:33] INFO [info: log.py, 20] 请求数据:{"c2u_id": "1267119-1596706562688198907"}
+[2019-01-22 14:12:33] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 14:12:33] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:12:33] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/getc2uinfo HTTP/1.1" 200 None
+[2019-01-22 14:12:35] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:12:35] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "page": 1}
+[2019-01-22 14:12:35] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 14:12:35] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:12:35] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/getusedcoupons HTTP/1.1" 200 None
+[2019-01-22 14:12:36] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:12:36] INFO [info: log.py, 20] 请求数据:{"cno": 1267119, "mergegrade": true, "acno": "1831675780211333"}
+[2019-01-22 14:12:36] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 14:12:36] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:12:36] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/mergeActualCard HTTP/1.1" 200 None
+[2019-01-22 14:12:38] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:12:38] INFO [info: log.py, 20] 请求数据:{"phone": "13718651995"}
+[2019-01-22 14:12:38] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 14:12:38] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:12:38] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/phonecard HTTP/1.1" 200 None
+[2019-01-22 14:12:41] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:12:41] INFO [info: log.py, 20] 请求数据:{"grade": 0, "phone": "13718651995"}
+[2019-01-22 14:12:41] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 14:12:41] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:12:41] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/phonecard HTTP/1.1" 200 None
+[2019-01-22 14:12:43] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:12:43] INFO [info: log.py, 20] 请求数据:{"phone": "13718651995", "shop_id": "1429830612"}
+[2019-01-22 14:12:43] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 14:12:43] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:12:43] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/phonecard HTTP/1.1" 200 None
+[2019-01-22 14:12:45] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:12:45] INFO [info: log.py, 20] 请求数据:{"grade": 0, "phone": "13718651995", "is_gift": 0, "shop_id": "1429830612"}
+[2019-01-22 14:12:45] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 14:12:45] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:12:45] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/phonecard HTTP/1.1" 200 None
+[2019-01-22 14:12:48] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:12:48] INFO [info: log.py, 20] 请求数据:{"phone": "13718651995", "is_gift": 0}
+[2019-01-22 14:12:48] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 14:12:48] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:12:48] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/phonecard HTTP/1.1" 200 None
+[2019-01-22 14:12:50] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:12:50] INFO [info: log.py, 20] 请求数据:{"cno": "1605855733813205"}
+[2019-01-22 14:12:50] INFO [info: log.py, 20] 请求Appid:dp1mFO1iEmEftoIxQJBH6g
+[2019-01-22 14:12:50] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:12:50] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/sendcode HTTP/1.1" 200 None
+[2019-01-22 14:12:53] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:12:53] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 14:12:53] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 14:12:53] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:12:54] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 14:12:57] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:12:57] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "shop_id": "1429830612"}
+[2019-01-22 14:12:57] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 14:12:57] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:12:57] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/account HTTP/1.1" 200 None
+[2019-01-22 14:12:59] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:12:59] INFO [info: log.py, 20] 请求数据:{"openid": "ohBubwav3gjx6PeQm2MFN_z47jS4"}
+[2019-01-22 14:12:59] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 14:12:59] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:12:59] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/cardinfo HTTP/1.1" 200 None
+[2019-01-22 14:13:01] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:13:01] INFO [info: log.py, 20] 请求数据:{"phone": "13800138188", "acno": "1109662303541283", "mode": "open", "sid": "1429830612"}
+[2019-01-22 14:13:01] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 14:13:01] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:13:01] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/checkcard HTTP/1.1" 200 None
+[2019-01-22 14:13:02] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:13:02] INFO [info: log.py, 20] 请求数据:{"username": "tianshu1", "cno": "1267119", "birth": "1990-06-01", "gender": 1}
+[2019-01-22 14:13:02] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 14:13:02] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:13:02] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/edit HTTP/1.1" 200 None
+[2019-01-22 14:13:05] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:13:05] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "gender": 2}
+[2019-01-22 14:13:05] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 14:13:05] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:13:05] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/edit HTTP/1.1" 200 None
+[2019-01-22 14:13:06] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:13:06] INFO [info: log.py, 20] 请求数据:{"username": "tianshu2", "cno": "1267119", "birth": "1991-06-01", "gender": 2}
+[2019-01-22 14:13:06] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 14:13:06] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:13:06] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/edit HTTP/1.1" 200 None
+[2019-01-22 14:13:09] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:13:09] INFO [info: log.py, 20] 请求数据:{"cno": "1267119", "birth": "1991-07-01"}
+[2019-01-22 14:13:09] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 14:13:09] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:13:09] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/edit HTTP/1.1" 200 None
+[2019-01-22 14:13:11] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:13:11] INFO [info: log.py, 20] 请求数据:{"username": "tianshu3", "cno": "1267119"}
+[2019-01-22 14:13:11] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 14:13:11] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:13:11] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/edit HTTP/1.1" 200 None
+[2019-01-22 14:13:14] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:13:14] INFO [info: log.py, 20] 请求数据:{"openid": "ohBubwav3gjx6PeQm2MFN_z47jS4"}
+[2019-01-22 14:13:14] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 14:13:14] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:13:14] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/getinfo HTTP/1.1" 200 None
+[2019-01-22 14:13:16] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:13:16] INFO [info: log.py, 20] 请求数据:{"unionid": "1520848192"}
+[2019-01-22 14:13:16] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 14:13:16] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:13:16] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/ugetinfo HTTP/1.1" 200 None
+[2019-01-22 14:13:20] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:13:20] INFO [info: log.py, 20] 请求数据:{"unionid": "20190122141320005", "shop_id": 1512995661, "phone": 13718651996}
+[2019-01-22 14:13:20] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-22 14:13:20] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:13:21] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/uopencard HTTP/1.1" 200 None
+[2019-01-22 14:13:24] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 14:13:24] INFO [info: log.py, 20] 请求数据:{"unionid": "20190122141324005", "shop_id": 1512995661}
+[2019-01-22 14:13:24] INFO [info: log.py, 20] 请求Appid:dp3lF7bop2e5PTFXwLHTszgv
+[2019-01-22 14:13:24] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 14:13:24] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/uopencard HTTP/1.1" 200 None
+[2019-01-22 16:08:31] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:08:31] INFO [info: log.py, 20] 请求数据:{"cno": "1268321242569692", "phone": "13718651993", "source_type": "api"}
+[2019-01-22 16:08:31] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:08:31] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:08:31] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/bindphone HTTP/1.1" 200 None
+[2019-01-22 16:11:10] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:11:10] INFO [info: log.py, 20] 请求数据:{"cno": "1268321242569692", "phone": "13718651993", "source_type": "api"}
+[2019-01-22 16:11:10] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:11:10] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:11:11] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/bindphone HTTP/1.1" 200 None
+[2019-01-22 16:11:26] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:11:26] INFO [info: log.py, 20] 请求数据:{"cno": "1268321242569692", "phone": "13718651993", "source_type": "api"}
+[2019-01-22 16:11:26] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:11:26] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:11:26] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/bindphone HTTP/1.1" 200 None
+[2019-01-22 16:12:26] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:12:26] INFO [info: log.py, 20] 请求数据:{"cno": "1268321242569692", "phone": "13718651993", "source_type": "api"}
+[2019-01-22 16:12:26] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:12:26] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:12:26] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/bindphone HTTP/1.1" 200 None
+[2019-01-22 16:12:27] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:12:27] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 16:12:27] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:12:27] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:12:27] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/grade HTTP/1.1" 200 None
+[2019-01-22 16:12:28] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:12:28] INFO [info: log.py, 20] 请求数据:{"cno": "13718651998"}
+[2019-01-22 16:12:28] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:12:28] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:12:29] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/grade HTTP/1.1" 200 None
+[2019-01-22 16:12:31] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:12:31] INFO [info: log.py, 20] 请求数据:{"cno": "1003935056208150"}
+[2019-01-22 16:12:31] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:12:31] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:12:31] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/grade HTTP/1.1" 200 None
+[2019-01-22 16:12:32] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:12:32] INFO [info: log.py, 20] 请求数据:{"cno": "541831675410800277316754108002"}
+[2019-01-22 16:12:32] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:12:32] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:12:32] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/grade HTTP/1.1" 200 None
+[2019-01-22 16:13:04] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:13:04] INFO [info: log.py, 20] 请求数据:{"cno": "1268321242569692", "phone": "13718651993", "source_type": "api"}
+[2019-01-22 16:13:04] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:13:04] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:13:05] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/bindphone HTTP/1.1" 200 None
+[2019-01-22 16:13:07] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:13:07] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 16:13:07] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:13:07] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:13:07] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/grade HTTP/1.1" 200 None
+[2019-01-22 16:13:09] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:13:09] INFO [info: log.py, 20] 请求数据:{"cno": "13718651998"}
+[2019-01-22 16:13:09] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:13:09] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:13:09] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/grade HTTP/1.1" 200 None
+[2019-01-22 16:13:12] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:13:12] INFO [info: log.py, 20] 请求数据:{"cno": "1268321242569692"}
+[2019-01-22 16:13:12] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:13:12] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:13:12] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/grade HTTP/1.1" 200 None
+[2019-01-22 16:13:14] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:13:14] INFO [info: log.py, 20] 请求数据:{"cno": "541831675410800277316754108002"}
+[2019-01-22 16:13:14] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:13:14] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:13:14] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/grade HTTP/1.1" 200 None
+[2019-01-22 16:14:37] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:14:37] INFO [info: log.py, 20] 请求数据:{"cno": "1268321242569692", "phone": "13718651993", "source_type": 4}
+[2019-01-22 16:14:37] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:14:37] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:14:37] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/bindphone HTTP/1.1" 200 None
+[2019-01-22 16:14:39] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:14:39] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 16:14:39] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:14:39] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:14:39] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/grade HTTP/1.1" 200 None
+[2019-01-22 16:14:40] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:14:40] INFO [info: log.py, 20] 请求数据:{"cno": "13718651998"}
+[2019-01-22 16:14:40] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:14:40] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:14:40] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/grade HTTP/1.1" 200 None
+[2019-01-22 16:14:43] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:14:43] INFO [info: log.py, 20] 请求数据:{"cno": "1268321242569692"}
+[2019-01-22 16:14:43] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:14:43] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:14:43] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/grade HTTP/1.1" 200 None
+[2019-01-22 16:14:44] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:14:44] INFO [info: log.py, 20] 请求数据:{"cno": "541831675410800277316754108002"}
+[2019-01-22 16:14:44] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:14:44] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:14:45] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/grade HTTP/1.1" 200 None
+[2019-01-22 16:15:13] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:15:13] INFO [info: log.py, 20] 请求数据:{"cno": "1268321242569692", "phone": "13718651993", "source_type": "api"}
+[2019-01-22 16:15:13] INFO [info: log.py, 20] 请求Appid:None
+[2019-01-22 16:15:13] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:15:13] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/bindphone HTTP/1.1" 200 None
+[2019-01-22 16:15:16] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:15:16] INFO [info: log.py, 20] 请求数据:{"cno": "1268321242569692", "phone": "13718651994", "source_type": 4}
+[2019-01-22 16:15:16] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:15:16] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:15:16] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/bindphone HTTP/1.1" 200 None
+[2019-01-22 16:15:19] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:15:19] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 16:15:19] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:15:19] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:15:20] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/grade HTTP/1.1" 200 None
+[2019-01-22 16:15:22] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:15:22] INFO [info: log.py, 20] 请求数据:{"cno": "13718651998"}
+[2019-01-22 16:15:22] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:15:22] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:15:22] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/grade HTTP/1.1" 200 None
+[2019-01-22 16:15:25] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:15:25] INFO [info: log.py, 20] 请求数据:{"cno": "1268321242569692"}
+[2019-01-22 16:15:25] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:15:25] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:15:25] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/grade HTTP/1.1" 200 None
+[2019-01-22 16:15:26] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:15:26] INFO [info: log.py, 20] 请求数据:{"cno": "541831675410800277316754108002"}
+[2019-01-22 16:15:26] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:15:26] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:15:26] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/grade HTTP/1.1" 200 None
+[2019-01-22 16:15:59] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:15:59] INFO [info: log.py, 20] 请求数据:{"cno": "1268321242569692", "phone": "13718651993", "source_type": "api"}
+[2019-01-22 16:15:59] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:15:59] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:15:59] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/bindphone HTTP/1.1" 200 None
+[2019-01-22 16:16:00] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:16:00] INFO [info: log.py, 20] 请求数据:{"cno": "1268321242569692", "phone": "13718651994", "source_type": 4}
+[2019-01-22 16:16:00] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:16:00] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:16:00] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/bindphone HTTP/1.1" 200 None
+[2019-01-22 16:16:01] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:16:01] INFO [info: log.py, 20] 请求数据:{"cno": "1267119"}
+[2019-01-22 16:16:01] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:16:01] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:16:02] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/grade HTTP/1.1" 200 None
+[2019-01-22 16:16:04] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:16:04] INFO [info: log.py, 20] 请求数据:{"cno": "13718651998"}
+[2019-01-22 16:16:04] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:16:04] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:16:04] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/grade HTTP/1.1" 200 None
+[2019-01-22 16:16:07] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:16:07] INFO [info: log.py, 20] 请求数据:{"cno": "1268321242569692"}
+[2019-01-22 16:16:07] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:16:07] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:16:07] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/grade HTTP/1.1" 200 None
+[2019-01-22 16:16:10] INFO [info: log.py, 20] ------------------START----------------
+[2019-01-22 16:16:10] INFO [info: log.py, 20] 请求数据:{"cno": "541831675410800277316754108002"}
+[2019-01-22 16:16:10] INFO [info: log.py, 20] 请求Appid:dp1svA1gkNt8cQMkoIv7HmD1
+[2019-01-22 16:16:10] DEBUG [_new_conn: connectionpool.py, 208] Starting new HTTP connection (1): api.beta.acewill.net
+[2019-01-22 16:16:10] DEBUG [_make_request: connectionpool.py, 396] http://api.beta.acewill.net:80 "POST /user/grade HTTP/1.1" 200 None

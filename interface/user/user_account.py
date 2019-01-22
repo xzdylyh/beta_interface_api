@@ -1,14 +1,14 @@
 #_*_coding:utf-8_*_
 import requests,json
-from interface_project.base.base_config import BaseConfig
+from base.base_config import BaseConfig
 
-from interface_project.library.scripts import getYamlfield
-from interface_project.library.scripts import retry
-from interface_project.globalVar import gl
+from library.scripts import getYamlfield
+from library.scripts import retry
+from globalVar import gl
 
 class DealClass(object):
     url = "/user/account"
-    payload = '------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name="req"\r\n\r\n{"cno":"1267119"}\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name="appid"\r\n\r\ndp1svA1gkNt8cQMkoIv7HmD1\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name="ts"\r\n\r\n1\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name="sig"\r\n\r\n1\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name="v"\r\n\r\n2.0\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--'
+    payload = '------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name="req"\r\n\r\n{"cno":"13718651996"}\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name="appid"\r\n\r\ndp1svA1gkNt8cQMkoIv7HmD1\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name="ts"\r\n\r\n1\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name="sig"\r\n\r\n1\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name="v"\r\n\r\n2.0\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--'
     headers = {
         'content-type': "multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW",
         'cache-control': "no-cache",
@@ -22,7 +22,7 @@ class DealClass(object):
 
     #获取用户账户信息
     @property
-    @retry(reNum=getYamlfield(gl.configFile)['RETRY']['ReNum'])
+    # @retry(reNum=getYamlfield(gl.configFile)['RETRY']['ReNum'])
     def userAccount(self):
         res = requests.request("POST",self.url,data=self.payload,headers=self.headers)
         if res.status_code ==200:
