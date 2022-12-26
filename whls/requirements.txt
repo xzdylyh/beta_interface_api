@@ -34,6 +34,6 @@ six==1.11.0
 urllib3==1.22
 websocket-client==0.47.0
 Werkzeug==0.14.1
-wheel==0.31.0
+wheel==0.38.1
 ws4py==0.5.1
 xlrd==1.1.0
